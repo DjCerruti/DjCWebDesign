@@ -87,7 +87,7 @@ h1 {
 }
 
 @keyframes northward1 {
-    0% { left: -10em; top: 100em; transform: scale(3); }
+    0% { left: -10em; top: 101em; transform: scale(3); }
 	100% { left: 15.5em; top: 26em; transform: scale(1.0); }
 }
 
