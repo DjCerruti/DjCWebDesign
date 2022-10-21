@@ -9,45 +9,15 @@ body {
 
 nav {
     position: absolute;
-    
+    top: 0;
 }
 
-/*.extra1 {
-    height: 100vh;
-    width: 200px;
-    position: absolute;
-    top: 0em;
-    left: 0em;
-    background-color: #F2DABD;
-    z-index: -1;
+ul li {
+    display: inline;
 }
-
-.extra2 {
-    height: 200px;
-    width:100vw;
-    position: absolute;
-    bottom: 0em;
-    left: 0em;
-    background-color: #F2DABD;
-    z-index: 2;
-}
-
-.extra4 {
-    height: 100vh;
-    width: 200px;
-    position: absolute;
-    top: 0em;
-    right: 0em;
-    background-color: #F2DABD;
-    z-index: -1; 
-}*/
 
 .wrapper {
     /*background-color: #F2DABD;*/
-}
-
-nav {
-    position: absolute;
 }
 
 h1 {
@@ -150,8 +120,8 @@ h1 {
 }
 #jt {
     position: absolute;
-    top: 23em;
-    left: 20.5em;
+    top: 22em;
+    left: 21em;
     z-index: -3;
     margin-bottom: 0;
     animation-name: northward1;
@@ -164,7 +134,7 @@ h1 {
 
 @keyframes northward1 {
     0% { left: -10em; top: 101em; transform: scale(3); }
-	100% { left: 20.5em; top: 23em; transform: scale(1.0); }
+	100% { left: 21em; top: 22em; transform: scale(1.0); }
 }
 
 #e {
@@ -205,18 +175,24 @@ h1 {
 }
 
 #dblug {
-    width: 80px;
-    height: 200px;
+    width: 62%;
+    height: 250px;
     background-color: #377D8C;
     position: absolute;
-    top: 20em;
+    top: 15em;
     left:0em;
     opacity: .64;
     z-index: -1;
     display: none;
+    animation-name: eastward2;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
 }
 
-#dblug_t {
+/*#dblug_t {
     position: absolute;
     top: 8em;
     left:-20em;
@@ -227,11 +203,11 @@ h1 {
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
-}
+}*/
 
 @keyframes eastward2 {
-    0% { left: -100em; top: 8em; transform: scale(2); }
-	100% { left: -20em; top: 8em; transform: scale(1.0); }
+    0% { left: -100em; top: 15em; transform: scale(2); }
+	100% { left: 0em; top: 15em; transform: scale(1.0); }
 }
 
 #orang {
