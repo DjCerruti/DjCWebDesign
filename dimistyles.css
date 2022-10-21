@@ -43,7 +43,7 @@ h1 {
 #c {
     position: absolute;
     top: 5em;
-    left: 0em;
+    left: -1em;
     z-index: 50;
     animation-name: capp;
     animation-duration: 8s;
