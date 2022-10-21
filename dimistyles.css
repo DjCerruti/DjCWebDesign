@@ -258,7 +258,7 @@ h1 {
      display: none;
  }
 
- #lblug {
+ /*#lblug {
      width: 470px;
      height: 900px;
      background-color: #56A6A6; 
@@ -267,10 +267,10 @@ h1 {
      left: 50em;
      z-index: -5;
      display: none;
- }
+ }*/
 
  #lblug_t {
-     position: relative;
+     position: absolute;
      left: 30em;
      top: -20em;
      opacity: 0.75;
@@ -296,6 +296,11 @@ h1 {
      right: 0em;
      z-index: -3; 
      display: none;
+ }
+
+.extra1 {
+     width: 100%;
+     height: 62em;
  }
  
  
