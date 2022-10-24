@@ -46,7 +46,7 @@ h1 {
 
 #c {
     position: absolute;
-    top: -4em;
+    top: -4.5em;
     left: 2em;
     z-index: 50;
     animation-name: capp;
