@@ -1,5 +1,5 @@
 body {
-    background-image: url(letter_images/sliceC6.png);
+    background-image: url(letter_images/slice2C.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@ h1 {
 
 #c {
     position: absolute;
-    top: -2.5em;
+    top: -6em;
     left: 2em;
     z-index: 50;
     animation-name: capp;
@@ -66,8 +66,8 @@ h1 {
 
 #d { 
     position:absolute;
-    top: 17em;
-    left: 19em;
+    top: 12em;
+    left: 18em;
     z-index: 50;
     animation-name: dapp;
     animation-duration: 8s;
@@ -86,8 +86,8 @@ h1 {
 
 #dt {
     position:absolute;
-    top: 10em;
-    left: 11em;
+    top: 5em;
+    left: 10em;
     animation-name: westward1;
     animation-duration: 8s;
     animation-delay: 1s;
@@ -100,13 +100,13 @@ h1 {
 
 @keyframes westward1 {
     0% { left: 150em; top: -50em; transform: scale(0.0); }
-	100% { left: 11em; top: 10em; transform: scale(1.0); }
+	100% { left: 10em; top: 5em; transform: scale(1.0); }
 }
 
 #j {
     position:absolute;
-    top: 18em;
-    left: 37em;
+    top: 13em;
+    left: 36em;
     z-index: 50;
     animation-name: japp;
     animation-duration: 8s;
@@ -124,8 +124,8 @@ h1 {
 }
 #jt {
     position: absolute;
-    top: 17em;
-    left: 23em;
+    top: 12em;
+    left: 22em;
     z-index: -3;
     margin-bottom: 0;
     animation-name: northward1;
@@ -138,13 +138,13 @@ h1 {
 
 @keyframes northward1 {
     0% { left: -10em; top: 101em; transform: scale(3); }
-	100% { left: 23em; top: 17em; transform: scale(1.0); }
+	100% { left: 22em; top: 12em; transform: scale(1.0); }
 }
 
 #e {
     position:absolute;
-    top: 19em;
-    left: 55em;
+    top: 14em;
+    left: 51em;
     z-index: 10;
     animation-name: eapp;
     animation-duration: 8s;
@@ -163,8 +163,8 @@ h1 {
 
 #et {
     position:absolute;
-    top: 12em;
-    left: 53em;
+    top: 7em;
+    left: 49em;
     animation-name: eastward1;
     animation-duration: 8s;
     animation-delay: 1s;
@@ -175,7 +175,7 @@ h1 {
 
 @keyframes eastward1 {
     0% { left: -50em; top: 35em; transform: scale(0); }
-	100% { left: 53em; top: 12em; transform: scale(1.0); }
+	100% { left: 49em; top: 7em; transform: scale(1.0); }
 }
 
 #dblug {
@@ -183,7 +183,7 @@ h1 {
     height: 25%;
     background-color: #377D8C;
     position: absolute;
-    top: 8em;
+    top: 3em;
     left:0em;
     opacity: .64;
     z-index: -1;
@@ -211,8 +211,8 @@ h1 {
 }*/
 
 @keyframes eastward2 {
-    0% { left: -100em; top: 8em; transform: scale(2); }
-	100% { left: 0em; top: 8em; transform: scale(1.0); }
+    0% { left: -100em; top: 3em; transform: scale(2); }
+	100% { left: 0em; top: 3em; transform: scale(1.0); }
 }
 
 #orang {
