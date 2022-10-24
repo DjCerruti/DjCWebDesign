@@ -1,10 +1,12 @@
 body {
-    background-image: url(letter_images/extraC7.png);
+    background-image: url(letter_images/sliceC6.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100%;   
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
 } 
 
 nav {
@@ -17,6 +19,8 @@ ul li {
 }
 
 .wrapper {
+    margin-top: 0em;
+    padding-top: 0;
     /*background-color: #F2DABD;*/
 }
 
@@ -42,8 +46,8 @@ h1 {
 
 #c {
     position: absolute;
-    top: 5em;
-    left: -1em;
+    top: -2.5em;
+    left: 2em;
     z-index: 50;
     animation-name: capp;
     animation-duration: 8s;
@@ -62,8 +66,8 @@ h1 {
 
 #d { 
     position:absolute;
-    top: 23em;
-    left: 17em;
+    top: 17em;
+    left: 19em;
     z-index: 50;
     animation-name: dapp;
     animation-duration: 8s;
@@ -82,8 +86,8 @@ h1 {
 
 #dt {
     position:absolute;
-    top: 16em;
-    left: 9em;
+    top: 10em;
+    left: 11em;
     animation-name: westward1;
     animation-duration: 8s;
     animation-delay: 1s;
@@ -96,12 +100,12 @@ h1 {
 
 @keyframes westward1 {
     0% { left: 150em; top: -50em; transform: scale(0.0); }
-	100% { left: 9em; top: 16em; transform: scale(1.0); }
+	100% { left: 11em; top: 10em; transform: scale(1.0); }
 }
 
 #j {
     position:absolute;
-    top: 24em;
+    top: 18em;
     left: 37em;
     z-index: 50;
     animation-name: japp;
@@ -120,8 +124,8 @@ h1 {
 }
 #jt {
     position: absolute;
-    top: 22em;
-    left: 21em;
+    top: 17em;
+    left: 23em;
     z-index: -3;
     margin-bottom: 0;
     animation-name: northward1;
@@ -134,13 +138,13 @@ h1 {
 
 @keyframes northward1 {
     0% { left: -10em; top: 101em; transform: scale(3); }
-	100% { left: 21em; top: 22em; transform: scale(1.0); }
+	100% { left: 23em; top: 17em; transform: scale(1.0); }
 }
 
 #e {
     position:absolute;
-    top: 25em;
-    left: 54em;
+    top: 19em;
+    left: 55em;
     z-index: 10;
     animation-name: eapp;
     animation-duration: 8s;
@@ -159,8 +163,8 @@ h1 {
 
 #et {
     position:absolute;
-    top: 18em;
-    left: 52em;
+    top: 12em;
+    left: 53em;
     animation-name: eastward1;
     animation-duration: 8s;
     animation-delay: 1s;
@@ -171,7 +175,7 @@ h1 {
 
 @keyframes eastward1 {
     0% { left: -50em; top: 35em; transform: scale(0); }
-	100% { left: 52em; top: 18em; transform: scale(1.0); }
+	100% { left: 53em; top: 12em; transform: scale(1.0); }
 }
 
 #dblug {
@@ -179,23 +183,23 @@ h1 {
     height: 25%;
     background-color: #377D8C;
     position: absolute;
-    top: 15em;
+    top: 8em;
     left:0em;
     opacity: .64;
     z-index: -1;
-    display: none;
     animation-name: eastward2;
     animation-duration: 8s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
+    
 }
 
 /*#dblug_t {
     position: absolute;
-    top: 8em;
-    left:-20em;
+    top: 15em;
+    left: 0em;
     opacity: .85;
     animation-name: eastward2;
     animation-duration: 8s;
@@ -203,11 +207,12 @@ h1 {
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
+    z-index: 10000;
 }*/
 
 @keyframes eastward2 {
-    0% { left: -100em; top: 15em; transform: scale(2); }
-	100% { left: 0em; top: 15em; transform: scale(1.0); }
+    0% { left: -100em; top: 8em; transform: scale(2); }
+	100% { left: 0em; top: 8em; transform: scale(1.0); }
 }
 
 #orang {
@@ -235,19 +240,20 @@ h1 {
  }
 
  /*#lblug {
-     width: 470px;
-     height: 900px;
+     width: 250px;
+     height: 75%;
+     opacity: 0.75
      background-color: #56A6A6; 
      position: absolute;
      top: 0em;
      left: 50em;
-     z-index: -5;
-     display: none;
+     z-index: 20;
+     
  }*/
 
  #lblug_t {
      position: absolute;
-     left: 30em;
+     left: 32em;
      top: -20em;
      opacity: 0.75;
      animation-name: southward1;
@@ -259,8 +265,8 @@ h1 {
  }
  
  @keyframes southward1 {
-     0% { left: 30em; top: -150em; transform: scale(3); }
-     100% { left: 30em; top: -20em; transform: scale(1.0); }
+     0% { left: 32em; top: -150em; transform: scale(3); }
+     100% { left: 32em; top: -20em; transform: scale(1.0); }
  }
 
  #lbrow {
@@ -278,5 +284,3 @@ h1 {
      width: 100%;
      height: 62em;
  }
- 
- 
