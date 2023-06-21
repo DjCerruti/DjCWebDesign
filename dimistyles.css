@@ -1067,7 +1067,7 @@ footer .footersection2 nav.nav2 ul li {
         color: white;
         clear: both;
         position: absolute;
-        top: 50%;
+        top: 60%;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
@@ -1083,6 +1083,8 @@ footer .footersection2 nav.nav2 ul li {
     footer .footersection1 ul {
         display: inline-block;
         width: 22%;
+	padding-right: 1em;
+        margin-right: 1em;
         
     }
 
