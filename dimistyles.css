@@ -1082,7 +1082,7 @@ footer .footersection2 nav.nav2 ul li {
     }
     footer .footersection1 ul {
         display: inline-block;
-	padding-right: 1em;
+        padding-right: 1em;
         margin-right: 1em;
         
     }
@@ -1349,20 +1349,6 @@ footer .footersection2 nav.nav2 ul li {
         transform: scale(1);
         
     }
-    
-    /*#dblug_t {
-        position: absolute;
-        top: 15em;
-        left: 0em;
-        opacity: .85;
-        animation-name: eastward2;
-        animation-duration: 8s;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
-        z-index: 10000;
-    }*/
     
     @keyframes eastward2 {
         0% { left: 0em; top: 6.5em; transform: scale(1.0); }
