@@ -1397,6 +1397,25 @@ footer .footersection2 nav.nav2 ul li {
 
 @media screen and (max-width: 680px) {
 
+    #home footer {
+        width: 100vw;
+        border-top: 5px solid black;
+        /*border-left: 25px solid black;
+        border-right: 25px solid black;*/
+        z-index: 1000;
+        background-color: rgb(47, 79, 79, .64);
+        /*color: #f2dabd;*/
+        color: white;
+        clear: both;
+        position: absolute;
+        top: 48%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
     footer .footersection2 nav.nav2 ul.nav2ul1 {
         margin-left: -2em;
         margin-right: 5%;
