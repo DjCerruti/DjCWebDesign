@@ -109,11 +109,21 @@ nav a {
     text-decoration: none;
 }
 
+nav a:link, nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #666666;
+    text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
+}
+
 nav ul li {
     display: inline;
     font-size: 1.8em;
     margin-right: 2.2em;
     font-family: Optima, "Gill Sans", sans-serif;
+    
 }
 
 .homelink {
@@ -677,7 +687,7 @@ span.slogan {
     float: left;
     padding-left: 8em;
     padding-right: 1em;
-}*/
+}
 
 .billboard1 {
     width: 80%;
@@ -842,10 +852,10 @@ fieldset button {
     border-top: 15px solid black;
 }
 
-#about footer li, #contact footer li, #gallery footer li {
+/*#about footer li, #contact footer li, #gallery footer li {
     color: black;
     
-}
+}*/
 
 .footersection1 {
     padding-bottom: 0;
@@ -928,8 +938,13 @@ footer .footersection2 nav.nav2 {
 
 
 
-footer .footersection2 nav.nav2 a:visited {
+/*footer .footersection2 nav.nav2 a:link, footer .footersection2 nav.nav2 a:visited {
     color: black;
+}*/
+
+footer .footersection2 nav.nav2 ul a:hover {
+    color: #333333;
+    text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
 }
 
 footer .footersection2 nav.nav2 ul {
@@ -1039,6 +1054,25 @@ footer .footersection2 nav.nav2 ul li {
         font-size: 1.2em;
         margin-right: 2.2em;
         font-family: Optima, "Gill Sans", sans-serif;
+    }
+
+    #home footer {
+        width: 100vw;
+        border-top: 5px solid black;
+        /*border-left: 25px solid black;
+        border-right: 25px solid black;*/
+        z-index: 1000;
+        background-color: rgb(47, 79, 79, .64);
+        /*color: #f2dabd;*/
+        color: white;
+        clear: both;
+        position: absolute;
+        top: 50%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        
     }
 
     .wrapper {
@@ -1337,25 +1371,6 @@ footer .footersection2 nav.nav2 ul li {
          0% { left: 17.25em; top: -5em; transform: scale(1); }
          100% { left: 17.25em; top: -5em; transform: scale(1.0); }
      }
-
-     #home footer {
-        width: 100vw;
-        border-top: 5px solid black;
-        /*border-left: 25px solid black;
-        border-right: 25px solid black;*/
-        z-index: 1000;
-        background-color: rgb(47, 79, 79, .64);
-        /*color: #f2dabd;*/
-        color: white;
-        clear: both;
-        position: absolute;
-        top: 35%;
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0;
-        padding: 0;
-        
-    }
 
 }
 
