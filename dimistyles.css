@@ -1169,10 +1169,7 @@ footer .footersection2 nav.nav2 ul li {
         top: 2em;
         left: 1em;
         z-index: 50;
-        /*position: absolute;
-        top: 2em;
-        left: 1em;
-        z-index: 50;
+        opacity: 0;
         animation-name: capp;
         animation-duration: 1.5s;
         animation-delay: 2.5s;
@@ -1181,7 +1178,7 @@ footer .footersection2 nav.nav2 ul li {
         animation-timing-function: ease-in-out;
         opacity: 0;
         z-index: 500;
-        padding: 0;*/
+        padding: 0;
     }
     
     #ct {
@@ -1284,14 +1281,14 @@ footer .footersection2 nav.nav2 ul li {
         animation-iteration-count: 1;
         animation-timing-function: ease-in-out;
         z-index: 110;
-        opacity: .64;
+        opacity: 0;
         border-bottom-right-radius: 50%;
         padding: 0;
     }
     
     @keyframes northward1 {
-        0% { left: 9.5em; top: 9.5em; transform: scale(1); }
-        100% { left: 9.5em; top: 9.5em; transform: scale(1.0); }
+        0% { opacity: 0; }
+        100% { opacity: .64; }
     }
     
     #e {
@@ -1329,11 +1326,12 @@ footer .footersection2 nav.nav2 ul li {
         animation-timing-function: ease-in-out;
         border-top-left-radius: 50%;
         padding: 0;
+        opacity: 0;
     }
     
     @keyframes eastward1 {
-        0% { left: 21.5em; top: 7em; transform: scale(1); }
-        100% { left: 21.5em; top: 7em; transform: scale(1.0); }
+        0% { opacity: 0; }
+        100% { opacity: 1; }
     }
     
     #home #dblug {
@@ -1343,7 +1341,7 @@ footer .footersection2 nav.nav2 ul li {
         position: absolute;
         top: 6.5em;
         left: 0;
-        opacity: .64;
+        opacity: 0;
         z-index: -1;
         animation-name: eastward2;
         animation-duration: 1.5s;
@@ -1359,8 +1357,8 @@ footer .footersection2 nav.nav2 ul li {
     }
     
     @keyframes eastward2 {
-        0% { left: 0em; top: 6.5em; transform: scale(1.0); }
-        100% { left: 0em; top: 6.5em; transform: scale(1.0); }
+        0% { opacity: 0; }
+        100% { opacity: .64; }
     }
     
      #lblug_t {
@@ -1369,7 +1367,7 @@ footer .footersection2 nav.nav2 ul li {
          position: absolute;
          left: 17.25em;
          top: -5em;
-         opacity: 0.75;
+         opacity: 0;
          animation-name: southward1;
          animation-duration: 1.5s;
          animation-delay: 1s;
@@ -1383,8 +1381,8 @@ footer .footersection2 nav.nav2 ul li {
      }
      
      @keyframes southward1 {
-         0% { left: 17.25em; top: -5em; transform: scale(1); }
-         100% { left: 17.25em; top: -5em; transform: scale(1.0); }
+        0% { opacity: 0; }
+        100% { opacity: 0.75; }
      } 
 
 }
