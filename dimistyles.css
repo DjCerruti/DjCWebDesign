@@ -319,8 +319,8 @@ span.slogan {
 #dt {
     width: 30%;
     position:absolute;
-    top: -50em;
-    left: 150em;
+    top: 7em;
+    left: 10em;
     animation-name: westward1;
     animation-duration: 1.5s;
     animation-delay: 1.5s;
@@ -330,11 +330,12 @@ span.slogan {
     z-index: 105;
     border-top-right-radius: 50%;
     padding: 0;
+    opacity: 0;
 }
 
 @keyframes westward1 {
-    0% { top: -50em; left: 150em; transform: scale(0.0); }
-	100% { top: 7em; left: 10em; transform: scale(1.0); }
+    0% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 #j {
@@ -361,8 +362,8 @@ span.slogan {
 #jt {
     width: 30%;
     position: absolute;
-    top: 101em;
-    left: -10em;
+    top: 14em;
+    left: 22.5em;
     z-index: -3;
     margin-bottom: 0;
     animation-name: northward1;
@@ -372,14 +373,14 @@ span.slogan {
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     z-index: 110;
-    opacity: .64;
+    opacity: 0;
     border-bottom-right-radius: 50%;
     padding: 0;
 }
 
 @keyframes northward1 {
-    0% { left: -10em; top: 101em; transform: scale(3); }
-	100% { left: 22.5em; top: 14em; transform: scale(1.0); }
+    0% { opacity: 0; }
+	100% { opacity: 0.64; }
 }
 
 #e {
@@ -417,11 +418,12 @@ span.slogan {
     animation-timing-function: ease-in-out;
     border-top-left-radius: 50%;
     padding: 0;
+    opacity: 0;
 }
 
 @keyframes eastward1 {
-    0% { left: -50em; top: 35em; transform: scale(0); }
-	100% { left: 49em; top: 9em; transform: scale(1.0); }
+    0% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 #home #dblug {
@@ -430,9 +432,9 @@ span.slogan {
     height: 250px;
     background-color: #377D8C;
     position: absolute;
-    top: 3em;
-    left:-100em;
-    opacity: .64;
+    top: 6em;
+    left: -.8em;
+    opacity: 0;
     z-index: -1;
     animation-name: eastward2;
     animation-duration: 1.5s;
@@ -443,7 +445,7 @@ span.slogan {
     z-index:100;
     border-top-left-radius: 25%;
     padding: 0;
-    transform: scale(2);
+    
     
 }
 
@@ -462,17 +464,17 @@ span.slogan {
 }*/
 
 @keyframes eastward2 {
-    0% { left: -100em; top: 3em; transform: scale(2); }
-	100% { left: -.8em; top: 6em; transform: scale(1.0); }
+    0% { opacity: 0; }
+	100% { opacity: 0.64; }
 }
 
  #lblug_t {
      width: 25%;
      height: 960px;
      position: absolute;
-     left: 43em;
-     top: -150em;
-     opacity: 0.75;
+     left: 40em;
+     top: -20em;
+     opacity: 0;
      animation-name: southward1;
      animation-duration: 1.5s;
      animation-delay: 1s;
@@ -486,8 +488,8 @@ span.slogan {
  }
  
  @keyframes southward1 {
-     0% { left: 43em; top: -150em; transform: scale(3); }
-     100% { left: 40em; top: -20em; transform: scale(1.0); }
+    0% { opacity: 0; }
+	100% { opacity: 0.75; }
  }
 
  #about img#htmlvista {
@@ -907,7 +909,7 @@ footer .copyrightinfo {
 }
 
 footer .footersection2 nav.nav2 {
-    display: flex;
+    display:flex;
     flex: auto;
     justify-content: space-around;
     width: 94.8%;
@@ -1167,6 +1169,10 @@ footer .footersection2 nav.nav2 ul li {
         top: 2em;
         left: 1em;
         z-index: 50;
+        /*position: absolute;
+        top: 2em;
+        left: 1em;
+        z-index: 50;
         animation-name: capp;
         animation-duration: 1.5s;
         animation-delay: 2.5s;
@@ -1175,7 +1181,7 @@ footer .footersection2 nav.nav2 ul li {
         animation-timing-function: ease-in-out;
         opacity: 0;
         z-index: 500;
-        padding: 0;
+        padding: 0;*/
     }
     
     #ct {
@@ -1235,11 +1241,12 @@ footer .footersection2 nav.nav2 ul li {
         z-index: 105;
         border-top-right-radius: 50%;
         padding: 0;
+        opacity: 0;
     }
     
     @keyframes westward1 {
-        0% { top: 6em; left: 4.75em; transform: scale(1.0); }
-        100% { top: 6em; left: 4.75em; transform: scale(1.0); }
+        0% { opacity: 0; }
+	    100% { opacity: 1; }
     }
     
     #j {
@@ -1378,7 +1385,7 @@ footer .footersection2 nav.nav2 ul li {
      @keyframes southward1 {
          0% { left: 17.25em; top: -5em; transform: scale(1); }
          100% { left: 17.25em; top: -5em; transform: scale(1.0); }
-     }
+     } 
 
 }
 
