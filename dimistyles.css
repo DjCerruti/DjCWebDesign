@@ -1246,10 +1246,10 @@ footer .footersection2 nav.nav2 ul li {
        }
        
        #e {
-           width: 19.2%;
+           width: 15.3%;
            position:absolute;
-           top: 8em;
-           left: 44.3em;
+           top: 8.3em;
+           left: 44.5em;
            z-index: 10;
            animation-name: eapp;
            animation-duration: 1.5s;
@@ -1268,10 +1268,10 @@ footer .footersection2 nav.nav2 ul li {
        }
        
        #et {
-           width: 22.4%;
+           width: 17.9%;
            position:absolute;
-           top: 2.2em;
-           left: 42.8em;
+           top: 3.6em;
+           left: 43.4em;
            animation-name: eastward1;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
