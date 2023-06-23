@@ -81,15 +81,6 @@ header nav {
     
 } 
 
-/*#about nav {
-        width: 500px;
-        position: absolute;
-        top: 1.5em;
-        left: 17.5em;
-        z-index: 505;
-        padding: 0em 0em 1em 0;    
-}*/
-
 nav ul {
     margin-top: 1em;
     border-top: 5px solid #BFA288;
@@ -447,20 +438,6 @@ span.slogan {
     
 }
 
-/*#dblug_t {
-    position: absolute;
-    top: 15em;
-    left: 0em;
-    opacity: .85;
-    animation-name: eastward2;
-    animation-duration: 8s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    z-index: 10000;
-}*/
-
 @keyframes eastward2 {
     0% { opacity: 0; }
 	100% { opacity: 0.64; }
@@ -536,8 +513,6 @@ span.slogan {
     width: 100%;
     z-index: 2000;
     color: #fff;
-    /*color: #ffa46c;*/
-    /*text-transform:uppercase;*/
     
 }
 
@@ -630,8 +605,6 @@ span.slogan {
     
 }
 
-
-
 .adcontainer {
     width: 100%;
     padding: 0;
@@ -648,8 +621,6 @@ span.slogan {
 .galleryimg {
     margin-left: 0em;
 }
-
-
 
 #ad2 {
     
@@ -754,6 +725,7 @@ fieldset input[type=text] {
     font-size: 1em;
     padding-left: 1em;
 }
+
 #nameinput {
     margin-left: auto;
     margin-right: auto;
@@ -854,11 +826,6 @@ fieldset button {
     border-top: 15px solid black;
 }
 
-/*#about footer li, #contact footer li, #gallery footer li {
-    color: black;
-    
-}*/
-
 .footersection1 {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -873,8 +840,8 @@ footer .footersection1 a {
 }
 
 footer .footersection1 a:hover {
-            text-shadow: -1.5px 0 #333333, 0 1.5px #333333, 1.5px 0 #333333, 0 -1.5px #333333;
-        }
+    text-shadow: -1.5px 0 #333333, 0 1.5px #333333, 1.5px 0 #333333, 0 -1.5px #333333;
+}
 
 footer .footersection1 ul {
     display: inline-block;
@@ -916,10 +883,10 @@ footer .copyrightinfo {
 footer .footersection2 nav.nav2 {
     display:flex;
     flex: auto;
-    justify-content: space-around;
+    justify-content:center;
     width: 94.8%;
     position: relative;
-    top: .5em;
+    top: 0em;
     left: 0em;
     margin-left: auto;
     margin-right: auto;
@@ -929,26 +896,6 @@ footer .footersection2 nav.nav2 {
     border-top-right-radius: 15px;
 
 }
-
-/*#about footer .footersection2 nav.nav2, #contact footer .footersection2 nav.nav2, #gallery footer .footersection2 nav.nav2 {
-    display: flex;
-    width: 94.8%;
-    position: relative;
-    top: .5em;
-    left: 0em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5em;
-    border: 2px solid black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}*/
-
-
-
-/*footer .footersection2 nav.nav2 a:link, footer .footersection2 nav.nav2 a:visited {
-    color: black;
-}*/
 
 footer .footersection2 nav.nav2 ul a:hover {
     color: #333333;
@@ -969,13 +916,6 @@ footer .footersection2 nav.nav2 ul.nav2ul1 {
        
 }
 
-/*#about footer .footersection2 nav.nav2 ul.nav2ul1, #contact footer .footersection2 nav.nav2 ul.nav2ul1, #gallery footer .footersection2 nav.nav2 ul.nav2ul1 {
-    margin-left: 2em;
-    margin-right: 10%;
-    border-top: none;
-    border-bottom: none;
-}*/
-
 footer .footersection2 nav.nav2 ul.nav2ul2 {
     /*margin-left: 12.5%;
     margin-right: 2em;*/
@@ -983,22 +923,12 @@ footer .footersection2 nav.nav2 ul.nav2ul2 {
     border-bottom: none;  
 }
 
-/*#about footer .footersection2 nav.nav2 ul.nav2ul2, #contact footer .footersection2 nav.nav2 ul.nav2ul2, #gallery footer .footersection2 nav.nav2 ul.nav2ul2 {
-    margin-left: 20%;
-    margin-right: 10%;
-    border-top: none;
-    border-bottom: none;
-    
-}*/
-
-
 footer .footersection2 nav.nav2 ul li {
     font-family: Optima, Arsenal, "Gill Sans", sans-serif;
     font-size: 1.6em;
     padding: 0;
     margin: 0 3em 0 3em;
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
 
 @media screen and (max-width: 1600px) {
@@ -1046,6 +976,54 @@ footer .footersection2 nav.nav2 ul li {
 }
 
 @media screen and (max-width: 1300px) {
+    
+    h1#logo a {
+        position: absolute;
+        top: 0.25em;
+        left: 1em;
+        background-image: url(letter_images/logo_djcdesign.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        z-index: 3000;
+        width: 251.8px;
+        height: 62.4px;
+        text-indent: -3000em;
+    }
+    
+    header nav {
+        width: 512px;
+        position: absolute;
+        top: .25em;
+        left: 18em;
+        z-index: 505;
+        padding: 0em 0em 0em 0;
+        
+    } 
+    
+    nav ul {
+        margin-top: 1em;
+        border-top: 5px solid #BFA288;
+        border-bottom: 5px solid #BFA288;
+        padding-top: .25em;
+        padding-bottom: .25em;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        width: 316px;
+    }
+    
+    nav ul li.about {
+        margin-left: 1.8em;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 1.2em;
+        margin-right: 1em;
+        margin-left: 1em;
+        font-family: Optima, Arsenal, "Gill Sans" sans-serif;
+        
+    }
 
     #home footer {
            width: 100vw;
@@ -1058,19 +1036,91 @@ footer .footersection2 nav.nav2 ul li {
            color: white;
            clear: both;
            position: absolute;
-           top: 80%;
+           top: 64%;
            margin-right: 0;
            margin-left: 0;
            margin-bottom: 0;
            padding: 0;
            
        }
+
+    footer .footersection1 ul {
+        display: inline-block;
+        width: 16%;
+        margin-left: 1.8em;
+    }
+
+    footer .footersection1 a {
+        /*color: #f2dabd;*/
+        color: white;
+        font-size: 1em;
+        
+    }  
+    
+    footer .footersection2 nav.nav2 {
+        display:flex;
+        flex: auto;
+        justify-content:center;
+        width: 95%;
+        position: relative;
+        top: -1em;
+        left: 0em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 2px solid black;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    
+    } 
+
+    footer .footersection2 nav.nav2 ul li {
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0 4em 0 0em;
+        font-weight: bolder;   
+    }
+
+    /*footer .footersection2 nav.nav2 ul.nav2ul1 li {
+       
+        border-top: none;
+        border-bottom: none;
+           
+    }*/
+    
+    footer .footersection2 nav.nav2 ul.nav2ul2 {
+        /*margin-left: 12.5%;
+        margin-right: 2em;*/
+        border-top: none;
+        border-bottom: none;  
+    }
+
+    footer .copyrightinfo {
+        display: block;
+        margin-top: 0em;
+        margin-bottom: .25em;
+        width: 95.4%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+        background-color: black;
+        text-align: center;
+        padding: 0;
+        padding-top: .25em;
+        padding-bottom: .25em;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        position: relative;
+        top: -1em;
+        z-index: 3000;
+    }
    
    #c {
-           width: 52.9%;
+           width: 42.3%;
            position: absolute;
-           top: -2em;
-           left: 10em;
+           top: -3.5em;
+           left: 18em;
            z-index: 50;
            opacity: 0;
            animation-name: capp;
@@ -1085,10 +1135,10 @@ footer .footersection2 nav.nav2 ul li {
        }
        
        #ct {
-           width: 52.9%;
+           width: 42.3%;
            position: absolute;
-           top: -1em;
-           left: 8.5em;
+           top: -2.5em;
+           left: 16.5em;
            animation-name: capp;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
@@ -1239,10 +1289,10 @@ footer .footersection2 nav.nav2 ul li {
        
        #home #dblug {
            min-width: 57.2%;
-           height: 187.5px;
+           height: 150px;
            background-color: #377D8C;
            position: absolute;
-           top: 6.5em;
+           top: 4.5em;
            left: 0;
            opacity: 0;
            z-index: -1;
@@ -1287,20 +1337,6 @@ footer .footersection2 nav.nav2 ul li {
            0% { opacity: 0; }
            100% { opacity: 0.75; }
         } 
-
-        footer .footersection1 ul {
-            display: inline-block;
-            width: 16%;
-            margin-left: 1.8em;
-        }
-   
-        footer .footersection1 a {
-            /*color: #f2dabd;*/
-            color: white;
-            font-size: 1.5em;
-    
-    
-        }
 
    }
    
@@ -1761,9 +1797,17 @@ footer .footersection2 nav.nav2 ul li {
         font-weight: bolder; 
     }
     
+    footer .footersection2 nav.nav2 ul:first-child {
+        
+        margin-left: 1.8em;
+       
+    }
 
-
-
+    #about footer .footersection2 nav.nav2 ul:first-child, #gallery footer .footersection2 nav.nav2 ul:first-child, #contact footer .footersection2 nav.nav2 ul:first-child {
+        
+        margin-left: 1.8em;
+       
+    }
 
 
 }
