@@ -1711,6 +1711,13 @@ footer .footersection2 nav.nav2 ul li {
         
     }
 
+    footer .footersection1 ul {
+        display: inline-block;
+        padding-right: 1em;
+        margin-right: 1em;
+        width: 25%;
+    }
+
     footer .footersection2 nav.nav2 ul.nav2ul1 {
         margin-left: -2em;
         margin-right: 5%;
