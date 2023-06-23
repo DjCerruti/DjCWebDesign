@@ -249,7 +249,7 @@ span.slogan {
     width: 70.5%;
     position: absolute;
     top: -3em;
-    left: 1em;
+    left: 2.8em;
     z-index: 50;
     animation-name: capp;
     animation-duration: 1.5s;
@@ -265,8 +265,8 @@ span.slogan {
 #ct {
     width: 70.5%;
     position: absolute;
-    top: -1.7em;
-    left: -.8em;
+    top: -1.8em;
+    left: 1em;
     animation-name: capp;
     animation-duration: 1.5s;
     animation-delay: 2.5s;
@@ -287,7 +287,7 @@ span.slogan {
     width: 18%;
     position:absolute;
     top: 14em;
-    left: 18em;
+    left: 19.8em;
     z-index: 50;
     animation-name: dapp;
     animation-duration: 1.5s;
@@ -309,7 +309,7 @@ span.slogan {
     width: 30%;
     position:absolute;
     top: 7em;
-    left: 10em;
+    left: 11.8em;
     animation-name: westward1;
     animation-duration: 1.5s;
     animation-delay: 1.5s;
@@ -331,7 +331,7 @@ span.slogan {
     width: 10%;
     position:absolute;
     top: 15em;
-    left: 36em;
+    left: 36.5em;
     z-index: 50;
     animation-name: japp;
     animation-duration: 1.5s;
@@ -352,7 +352,7 @@ span.slogan {
     width: 30%;
     position: absolute;
     top: 14em;
-    left: 22.5em;
+    left: 23em;
     z-index: -3;
     margin-bottom: 0;
     animation-name: northward1;
@@ -376,7 +376,7 @@ span.slogan {
     width: 24%;
     position:absolute;
     top: 16em;
-    left: 51em;
+    left: 52.2em;
     z-index: 10;
     animation-name: eapp;
     animation-duration: 1.5s;
@@ -398,7 +398,7 @@ span.slogan {
     width: 28%;
     position:absolute;
     top: 8.7em;
-    left: 49.2em;
+    left: 50.4em;
     animation-name: eastward1;
     animation-duration: 1.5s;
     animation-delay: 2.5s;
@@ -447,7 +447,7 @@ span.slogan {
      width: 25%;
      height: 960px;
      position: absolute;
-     left: 40em;
+     left: 41em;
      top: -20em;
      opacity: 0;
      animation-name: southward1;
@@ -466,6 +466,7 @@ span.slogan {
     0% { opacity: 0; }
 	100% { opacity: 0.75; }
  }
+
 
  #about img#htmlvista {
      
@@ -1119,7 +1120,7 @@ footer .footersection2 nav.nav2 ul li {
    #c {
            width: 42.3%;
            position: absolute;
-           top: -3.5em;
+           top: -3em;
            left: 14em;
            z-index: 50;
            opacity: 0;
@@ -1137,7 +1138,7 @@ footer .footersection2 nav.nav2 ul li {
        #ct {
            width: 42.3%;
            position: absolute;
-           top: -2.5em;
+           top: -2em;
            left: 12.5em;
            animation-name: capp;
            animation-duration: 1.5s;
@@ -1247,8 +1248,8 @@ footer .footersection2 nav.nav2 ul li {
        #e {
            width: 19.2%;
            position:absolute;
-           top: 12.2em;
-           left: 47.2em;
+           top: 8em;
+           left: 43.5em;
            z-index: 10;
            animation-name: eapp;
            animation-duration: 1.5s;
@@ -1269,8 +1270,8 @@ footer .footersection2 nav.nav2 ul li {
        #et {
            width: 22.4%;
            position:absolute;
-           top: 6.3em;
-           left: 45.7em;
+           top: 2.2em;
+           left: 42em;
            animation-name: eastward1;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
