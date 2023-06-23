@@ -868,6 +868,7 @@ footer .footersection1 a {
     /*color: #f2dabd;*/
     color: white;
     font-size: 1.8em;
+    text-decoration: none;
 }
 
 footer .footersection1 ul {
