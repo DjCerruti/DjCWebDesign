@@ -1120,7 +1120,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 42.3%;
            position: absolute;
            top: -3.5em;
-           left: 16em;
+           left: 14em;
            z-index: 50;
            opacity: 0;
            animation-name: capp;
@@ -1138,7 +1138,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 42.3%;
            position: absolute;
            top: -2.5em;
-           left: 14.5em;
+           left: 12.5em;
            animation-name: capp;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
