@@ -872,6 +872,10 @@ footer .footersection1 a {
     text-decoration: none;
 }
 
+footer .footersection1 a:hover {
+            text-shadow: -1.5px 0 #333333, 0 1.5px #333333, 1.5px 0 #333333, 0 -1.5px #333333;
+        }
+
 footer .footersection1 ul {
     display: inline-block;
     width: 20.5%;
