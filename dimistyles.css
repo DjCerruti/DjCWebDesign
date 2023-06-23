@@ -1121,7 +1121,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 42.3%;
            position: absolute;
            top: -3em;
-           left: 15.8em;
+           left: 16em;
            z-index: 50;
            opacity: 0;
            animation-name: capp;
@@ -1139,7 +1139,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 42.3%;
            position: absolute;
            top: -2em;
-           left: 14.3em;
+           left: 14.5em;
            animation-name: capp;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
@@ -1249,7 +1249,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 15.3%;
            position:absolute;
            top: 8.3em;
-           left: 45.5em;
+           left: 45.7em;
            z-index: 10;
            animation-name: eapp;
            animation-duration: 1.5s;
@@ -1271,7 +1271,7 @@ footer .footersection2 nav.nav2 ul li {
            width: 17.9%;
            position:absolute;
            top: 3.6em;
-           left: 44.4em;
+           left: 44.6em;
            animation-name: eastward1;
            animation-duration: 1.5s;
            animation-delay: 2.5s;
