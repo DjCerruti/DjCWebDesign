@@ -579,7 +579,7 @@ span.slogan {
     margin-right: auto;
     position: relative;
     z-index: 1000;
-    font-size: 1.8em;
+    font-size: 1.6em;
     
 }
 
@@ -675,6 +675,18 @@ span.slogan {
     font-size: 1.8em;
     margin-left: auto;
     margin-right: auto;
+}
+
+#about h3, #gallery h3, #contact h3 {
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#about h4, #gallery h4, #contact h4 {
+    font-size: 1em;
+    
 }
 
 #about h2, #gallery h2, #contact h2 {
@@ -1014,6 +1026,26 @@ footer .footersection2 nav.nav2 ul li {
     @keyframes slogapp {
         0% { opacity: 0; }
         100% { opacity: 1; }
+    }
+
+    #about h3, #gallery h3, #contact h3 {
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #about h4, #gallery h4, #contact h4 {
+        font-size: .8em;
+        
+    }
+    
+    #about h2, #gallery h2, #contact h2 {
+        font-size: 2em;
+        width: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
     }
     
     header nav {
@@ -1824,6 +1856,8 @@ footer .footersection2 nav.nav2 ul li {
 
 
 }
+
+
 
 
 
