@@ -615,6 +615,8 @@ span.slogan {
     font-size: 1em;
     max-width: 500px;
     margin-left: 0em;
+    margin-top: .3em;
+    margin-bottom: 1.3em;
 }
 
 .galleryimg {
