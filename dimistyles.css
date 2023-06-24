@@ -806,7 +806,7 @@ fieldset button {
     color: white;
     clear: both;
     position: absolute;
-    top: 66%;
+    bottom: 0%;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
@@ -820,7 +820,7 @@ fieldset button {
     color: white;
     height: auto;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     margin-top: 1em;
     margin-bottom: 0em;
     border-top: 15px solid black;
@@ -859,7 +859,7 @@ footer li {
 footer .copyrightinfo {
     display: block;
     margin-top: 0em;
-    margin-bottom: .25em;
+    margin-bottom: 0em;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -1050,24 +1050,21 @@ footer .footersection2 nav.nav2 ul li {
         
     }
 
-    #home footer {
+    /*#home footer {
            width: 100vw;
            border-top: 5px solid black;
-           /*border-left: 25px solid black;
-           border-right: 25px solid black;*/
            z-index: 1000;
            background-color: rgb(47, 79, 79, .64);
-           /*color: #f2dabd;*/
            color: white;
            clear: both;
            position: absolute;
-           top: 64%;
+           bottom: 0%;
            margin-right: 0;
            margin-left: 0;
            margin-bottom: 0;
            padding: 0;
            
-       }
+       }*/
 
     footer .footersection1 ul {
         display: inline-block;
@@ -1434,14 +1431,11 @@ footer .footersection2 nav.nav2 ul li {
         
     }
 
-    #home footer {
+    /*#home footer {
         width: 100vw;
         border-top: 5px solid black;
-        /*border-left: 25px solid black;
-        border-right: 25px solid black;*/
         z-index: 1000;
         background-color: rgb(47, 79, 79, .64);
-        /*color: #f2dabd;*/
         color: white;
         clear: both;
         position: absolute;
@@ -1451,7 +1445,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-bottom: 0;
         padding: 0;
         
-    }
+    }*/
 
     footer .footersection1 a {
         /*color: #f2dabd;*/
@@ -1765,14 +1759,11 @@ footer .footersection2 nav.nav2 ul li {
 
 @media screen and (max-width: 680px) {
 
-    #home footer {
+    /*#home footer {
         width: 100vw;
         border-top: 5px solid black;
-        /*border-left: 25px solid black;
-        border-right: 25px solid black;*/
         z-index: 1000;
         background-color: rgb(47, 79, 79, .64);
-        /*color: #f2dabd;*/
         color: white;
         clear: both;
         position: absolute;
@@ -1782,7 +1773,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-bottom: 0;
         padding: 0;
         
-    }
+    }*/
 
     footer .footersection1 ul {
         display: inline-block;
@@ -1843,6 +1834,8 @@ footer .footersection2 nav.nav2 ul li {
 
 
 }
+
+
 
 
 
