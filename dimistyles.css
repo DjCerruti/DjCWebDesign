@@ -601,8 +601,7 @@ span.slogan {
 }
 
 #svelte {
-    border: 1px solid black;
-    
+    border: 1px solid black;   
 }
 
 .adcontainer {
@@ -1437,10 +1436,6 @@ footer .footersection2 nav.nav2 ul li {
 
     }*/
 
-    #logo img {
-        width: 200px;
-    }
-
     header nav  {
         width: 360px;
         position: absolute;
@@ -1878,6 +1873,8 @@ footer .footersection2 nav.nav2 ul li {
 
 
 }
+
+
 
 
 
