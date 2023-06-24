@@ -678,7 +678,7 @@ span.slogan {
 }
 
 #about h3, #gallery h3, #contact h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: auto;
     margin-right: auto;
     
@@ -1029,23 +1029,45 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     #about h3, #gallery h3, #contact h3 {
-        font-size: 1em;
+        font-size: 1.2em;
         margin-left: auto;
         margin-right: auto;
         
     }
     
     #about h4, #gallery h4, #contact h4 {
-        font-size: .8em;
+        font-size: 1em;
         
     }
     
     #about h2, #gallery h2, #contact h2 {
-        font-size: 2em;
+        font-size: 2.4em;
         width: 4em;
         margin-left: auto;
         margin-right: auto;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+    }
+
+    .intro {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1000;
+        font-size: 1.4em;
+        
+    }
+    
+    .introcolumns {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        columns: 2 250px;
+        column-gap: 100px;
+        column-fill:balance;
+        font-size: 1.4em;
+        margin-bottom: 1em;
+    
     }
     
     header nav {
@@ -1856,6 +1878,8 @@ footer .footersection2 nav.nav2 ul li {
 
 
 }
+
+
 
 
 
