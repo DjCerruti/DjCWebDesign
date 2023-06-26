@@ -474,7 +474,7 @@ span.slogan {
     z-index:100;
     border-top-left-radius: 50%;
     padding: 0;
-    transform: scale(0);
+   
     
 }
 
@@ -488,8 +488,8 @@ span.slogan {
     0% { top: 2em; }
     100% { top: 2em; }*/
 
-    0% { transform: scale(0) }
-    100% { transform: scale(1) }
+    /*0% { transform: scale(0) }
+    100% { transform: scale(1) }*/
 
 }
 
