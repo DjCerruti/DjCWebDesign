@@ -458,7 +458,7 @@ span.slogan {
 #home #dblug {
     
     min-width: 1117px;
-    max-height: 4em;
+    min-height: 5em;
     background-color: #377D8C;
     position: absolute;
     top: 2em;
