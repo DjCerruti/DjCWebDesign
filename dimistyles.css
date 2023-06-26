@@ -239,6 +239,7 @@ span.slogan {
 
 #centerbox {
     width: 1200px;
+    height: 1000px;
     margin-left:auto;
     margin-right:auto;
     position: relative;
@@ -248,10 +249,10 @@ span.slogan {
 #c {
     width: 70.5%;
     position: absolute;
-    top: -3em;
-    left: 2.8em;
+    top: -50em;
+    left: -50em;
     z-index: 50;
-    animation-name: capp;
+    animation-name: capp1;
     animation-duration: 1.5s;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
@@ -262,12 +263,24 @@ span.slogan {
     padding: 0;
 }
 
+@keyframes capp1 {
+    0% { opacity: 0; }
+	100% { opacity: 1; }
+
+    0% { top: -50em; }
+	100% {top: -3em; }
+
+    0% { left: -50em; }
+    100% {left: 2.8em; }
+
+}
+
 #ct {
     width: 70.5%;
     position: absolute;
-    top: -1.8em;
-    left: 1em;
-    animation-name: capp;
+    top: -35em;
+    left: -40em;
+    animation-name: capp2;
     animation-duration: 1.5s;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
@@ -275,12 +288,22 @@ span.slogan {
     animation-timing-function: ease-in-out;
     opacity: 0;
     padding: 0;
+    scale(2);
     
 }
 
-@keyframes capp {
+@keyframes capp2 {
     0% { opacity: 0; }
 	100% { opacity: 1; }
+
+    0% { left: -35em; }
+	100% {left: 1em; }
+
+    0% { top: -35em; }
+    100% { top: -1.8em; }
+
+    0% { transform: scale(2) }
+    100% { transform: scale(1) }
 }
 
 #d { 
@@ -375,8 +398,8 @@ span.slogan {
 #e {
     width: 24%;
     position:absolute;
-    top: 16em;
-    left: 52.2em;
+    top: -120em;
+    left: 150em;
     z-index: 10;
     animation-name: eapp;
     animation-duration: 1.5s;
@@ -392,13 +415,20 @@ span.slogan {
 @keyframes eapp {
     0% { opacity: 0; }
 	100% { opacity: 1; }
+
+    0% { left: 150em; }
+	100% {left: 52.2em; }
+
+    0% { top: -120em; }
+    100% { top: 16em; }
+
 }
 
 #et {
     width: 28%;
     position:absolute;
-    top: 8.7em;
-    left: 50.4em;
+    top: -80em;
+    left: 200em;
     animation-name: eastward1;
     animation-duration: 1.5s;
     animation-delay: 2.5s;
@@ -413,16 +443,26 @@ span.slogan {
 @keyframes eastward1 {
     0% { opacity: 0; }
 	100% { opacity: 1; }
+
+    0% { left: 200em; }
+	100% {left: 50.4em; }
+
+    0% { top: -80em; }
+    100% { top: 8.7em; }
+
+    0% { transform: scale(5) }
+    100% { transform: scale(1) }
+
 }
 
 #home #dblug {
     
-    min-width: 58%;
+    min-width: 1117px;
     height: 250px;
     background-color: #377D8C;
     position: absolute;
-    top: 6em;
-    left: -.8em;
+    top: 2em;
+    left: -24.3em;
     opacity: 0;
     z-index: -1;
     animation-name: eastward2;
@@ -432,7 +472,7 @@ span.slogan {
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     z-index:100;
-    border-top-left-radius: 25%;
+    border-top-left-radius: 50%;
     padding: 0;
     
     
@@ -441,14 +481,24 @@ span.slogan {
 @keyframes eastward2 {
     0% { opacity: 0; }
 	100% { opacity: 0.64; }
+
+    /*0% { left: 100em; }
+	100% {left: -24.3em; }
+
+    0% { top: 2em; }
+    100% { top: 2em; }*/
+
+    /*0% { transform: scale(0) }
+    100% { transform: scale(1) }*/
+
 }
 
  #lblug_t {
      width: 25%;
-     height: 960px;
+     height: 1000px;
      position: absolute;
      left: 41em;
-     top: -20em;
+     top: -25em;
      opacity: 0;
      animation-name: southward1;
      animation-duration: 1.5s;
@@ -465,6 +515,16 @@ span.slogan {
  @keyframes southward1 {
     0% { opacity: 0; }
 	100% { opacity: 0.75; }
+
+    /*0% { left: -50em; }
+	100% {left: 41em; }
+
+    0% { top: -25em; }
+    100% { top: -25em; }*/
+
+    /*0% { transform: scale(0) }
+    100% { transform: scale(1) }*/
+
  }
 
  #about img#htmlvista {
@@ -617,6 +677,7 @@ span.slogan {
     margin-left: 0em;
     margin-top: .3em;
     margin-bottom: 1.3em;
+    
 }
 
 .galleryimg {
@@ -839,6 +900,7 @@ footer .footersection1 a {
     color: white;
     font-size: 1.8em;
     text-decoration: none;
+    padding-right: 1em;
 }
 
 footer .footersection1 a:hover {
@@ -848,7 +910,7 @@ footer .footersection1 a:hover {
 footer .footersection1 ul {
     display: inline-block;
     width: 20.5%;
-    margin-left: 1.8em;
+    margin-left: 1em;
 }
 
 footer li {
@@ -934,55 +996,25 @@ footer .footersection2 nav.nav2 ul li {
     font-weight: bolder;   
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1680px) {
 
-    /*footer .footersection2 nav.nav2 ul.nav2ul1 {
-        margin-left: 10%;
-        margin-right: 10%;
-        border-top: none;
-        border-bottom: none;
-           
-    }
-    
-    #about footer .footersection2 nav.nav2 ul.nav2ul1, #contact footer .footersection2 nav.nav2 ul.nav2ul1, #gallery footer .footersection2 nav.nav2 ul.nav2ul1 {
-        margin-left: 10%;
-        margin-right: 10%;
-        border-top: none;
-        border-bottom: none;
-    }
-    
-    footer .footersection2 nav.nav2 ul.nav2ul2 {
-        margin-left: 2em;
-        margin-right: 2em;
-        border-top: none;
-        border-bottom: none;  
-    }
-    
-    #about footer .footersection2 nav.nav2 ul.nav2ul2, #contact footer .footersection2 nav.nav2 ul.nav2ul2, #gallery footer .footersection2 nav.nav2 ul.nav2ul2 {
-        margin-left: 10%;
-        margin-right: 5%;
-        border-top: none;
-        border-bottom: none;
+    footer .footersection1 a {
+        /*color: #f2dabd;*/
+        color: white;
+        font-size: 1.6em;
+        margin-bottom: 0em;
+        padding-right: 0;
+        margin-right: 0;
         
-    }*/
-    
-    /*footer .footersection2 nav.nav2 ul li {
-        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        font-size: 1em;
-        padding: 0;
-        margin: 0 2em 0 4em;
-        font-weight: bolder; 
-    }*/
+    }
 
+}   
 
-
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
     
     h1#logo a {
         position: absolute;
-        top: 0.25em;
+        top: 0.2em;
         left: 1.5em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -997,9 +1029,9 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         width: 350px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 1em;
-        top: 7em;
-        font-size: .8em;
+        left: 3em;
+        top: 7.5em;
+        font-size: 1.2em;
         color: #f2dabd;
         z-index: 200;
         animation-name: slogapp;
@@ -1095,22 +1127,6 @@ footer .footersection2 nav.nav2 ul li {
         
     }
 
-    /*#home footer {
-           width: 100vw;
-           border-top: 5px solid black;
-           z-index: 1000;
-           background-color: rgb(47, 79, 79, .64);
-           color: white;
-           clear: both;
-           position: absolute;
-           bottom: 0%;
-           margin-right: 0;
-           margin-left: 0;
-           margin-bottom: 0;
-           padding: 0;
-           
-       }*/
-
     footer .footersection1 ul {
         display: inline-block;
         width: 16%;
@@ -1123,8 +1139,8 @@ footer .footersection2 nav.nav2 ul li {
 
     footer .footersection1 a {
         /*color: #f2dabd;*/
+        font-size: 1.4em;
         color: white;
-        font-size: 1em;
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 0;
@@ -1148,9 +1164,9 @@ footer .footersection2 nav.nav2 ul li {
 
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        font-size: 1em;
+        font-size: 1.2em;
         padding: 0;
-        margin: 0 3.2em 0 3.2em;
+        margin: 0 2em 0 2em;
         font-weight: bolder;   
     }
     
@@ -1178,8 +1194,20 @@ footer .footersection2 nav.nav2 ul li {
         bottom: 0%;
         z-index: 3000;
     }
+
+    #centerbox {
+        width: 1200px;
+        height: 1000px;
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: -11em;
+        left: -1em;
+        padding: 0;
+        transform:scale(.67);
+    }
    
-   #c {
+ /*  #c {
            width: 42.3%;
            position: absolute;
            top: -2.3em;
@@ -1351,12 +1379,12 @@ footer .footersection2 nav.nav2 ul li {
        }
        
        #home #dblug {
-           min-width: 57.2%;
+           min-width: 700.2px;
            height: 150px;
            background-color: #377D8C;
            position: absolute;
-           top: 4em;
-           left: 0;
+           top: 1em;
+           left: -3em;
            opacity: 0;
            z-index: -1;
            animation-name: eastward2;
@@ -1378,11 +1406,11 @@ footer .footersection2 nav.nav2 ul li {
        }
        
         #lblug_t {
-            width: 20%;
-            height: 600px;
+            width: 15%;
+            height: 576px;
             position: absolute;
             left: 38.2em;
-            top: -5em;
+            top: -12em;
             opacity: 0;
             animation-name: southward1;
             animation-duration: 1.5s;
@@ -1399,12 +1427,11 @@ footer .footersection2 nav.nav2 ul li {
         @keyframes southward1 {
            0% { opacity: 0; }
            100% { opacity: 0.75; }
-        } 
+        } */
 
    }
-   
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 960px) {
 
     h1#logo a {
         position: absolute;
@@ -1426,6 +1453,31 @@ footer .footersection2 nav.nav2 ul li {
     left: 2em; 
 
     }*/
+
+    #home h2 {
+        position: relative;
+        width: 350px;
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+        left: 2em;
+        top: 13em;
+        font-size: .8em;
+        color: #f2dabd;
+        z-index: 200;
+        animation-name: slogapp;
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        opacity: 0;
+        z-index: 510;
+        padding: 0;
+    }
+    
+    @keyframes slogapp {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
 
     header nav  {
         width: 360px;
@@ -1461,22 +1513,6 @@ footer .footersection2 nav.nav2 ul li {
         
     }
 
-    /*#home footer {
-        width: 100vw;
-        border-top: 5px solid black;
-        z-index: 1000;
-        background-color: rgb(47, 79, 79, .64);
-        color: white;
-        clear: both;
-        position: absolute;
-        top: 54%;
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0;
-        padding: 0;
-        
-    }*/
-
     footer .footersection1 a {
         /*color: #f2dabd;*/
         color: white;
@@ -1485,14 +1521,14 @@ footer .footersection2 nav.nav2 ul li {
 
     footer .footersection1 ul {
         display: inline-block;
-        padding-right: 1em;
-        margin-right: 1em;
-        width: 25%;
+        
+        
+        width: 40%;
     }
 
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 0;
         margin: 0 3em 0 3em;
         font-weight: bolder;
@@ -1538,32 +1574,19 @@ footer .footersection2 nav.nav2 ul li {
         text-shadow: 0px 2px rgb(47, 79, 79, .33);   
     }
 
-    #home h2 {
+    #centerbox {
+        width: 1200px;
+        height: 1000px;
+        margin-left:auto;
+        margin-right:auto;
         position: relative;
-        width: 350px;
-        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 1em;
-        top: 11em;
-        font-size: .8em;
-        color: #f2dabd;
-        z-index: 200;
-        animation-name: slogapp;
-        animation-duration: 1.5s;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
-        opacity: 0;
-        z-index: 510;
+        top: -12.5em;
+        left: -12em;
         padding: 0;
-    }
-    
-    @keyframes slogapp {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+        transform:scale(.5);
     }
 
-    #c {
+  /*  #c {
         width: 30%;
         position: absolute;
         top: 2em;
@@ -1783,33 +1806,107 @@ footer .footersection2 nav.nav2 ul li {
      @keyframes southward1 {
         0% { opacity: 0; }
         100% { opacity: 0.75; }
-     } 
+     } */
 
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
 
-    /*#home footer {
+    #centerbox {
+        width: 1200px;
+        height: 1000px;
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: -18em;
+        left: -18em;
+        padding: 0;
+        transform:scale(.36);
+    }
+
+    #home h2 {
+        position: relative;
+        width: 100px;
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+        left: 5em;
+        top: 10em;
+        font-size: .8em;
+        color: #f2dabd;
+        z-index: 200;
+        animation-name: slogapp;
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        opacity: 0;
+        z-index: 510;
+        padding: 0;
+    }
+    
+    @keyframes slogapp {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    header nav ul {
+        margin-top: 1em;
+        border-top: 5px solid #BFA288;
+        border-bottom: 5px solid #BFA288;
+        padding-top: .25em;
+        padding-bottom: .25em;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        width: 410px;
+        background-color:#f2dabd;
+    }
+
+    nav ul li.about {
+        margin-left: 4.4em;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 1em;
+        margin-right: 2.8em;
+        font-family: Optima, Arsenal, "Gill Sans" sans-serif;
+        
+    }
+
+    #home footer {
         width: 100vw;
-        border-top: 5px solid black;
+        height: 100%;
+        border-top: 12px solid black;
+        /*border-left: 25px solid black;
+        border-right: 25px solid black;*/
         z-index: 1000;
         background-color: rgb(47, 79, 79, .64);
+        /*color: #f2dabd;*/
         color: white;
         clear: both;
         position: absolute;
-        top: 42%;
+        top: 75%;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
         padding: 0;
         
-    }*/
+    }
 
     footer .footersection1 ul {
-        display: inline-block;
-        padding-right: 1em;
-        margin-right: 1em;
-        width: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+
+    }
+
+    footer .footersection1 a {
+        /*color: #f2dabd;*/
+        color: white;
+        font-size: 1.1em;
+       
     }
 
     footer .footersection2 nav.nav2 ul.nav2ul1 {
@@ -1844,7 +1941,7 @@ footer .footersection2 nav.nav2 ul li {
     
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 0;
         margin: 0 2em 0 4em;
         font-weight: bolder; 
@@ -1864,6 +1961,76 @@ footer .footersection2 nav.nav2 ul li {
 
 
 }
+
+@media screen and (max-width: 530px) {
+
+    #centerbox {
+        width: 1200px;
+        height: 1000px;
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: -20.5em;
+        left: -23em;
+        padding: 0;
+        transform:scale(.25);
+    }
+
+    #home h2 {
+        position: relative;
+        width: 100px;
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+        left: 5em;
+        top: 11em;
+        font-size: .625em;
+        color: #f2dabd;
+        z-index: 200;
+        animation-name: slogapp;
+        animation-duration: 1.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        opacity: 0;
+        z-index: 510;
+        padding: 0;
+    }
+    
+    @keyframes slogapp {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    header nav ul {
+        margin-top: 1em;
+        border-top: 5px solid #BFA288;
+        border-bottom: 5px solid #BFA288;
+        padding-top: .25em;
+        padding-bottom: .25em;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        width: 290px;
+    }
+
+    nav ul li.about {
+        margin-left: 2.3em;
+        margin-right: auto;
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-size: 1em;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Optima, Arsenal, "Gill Sans" sans-serif;
+        
+    }
+
+}
+
+
 
 
 
