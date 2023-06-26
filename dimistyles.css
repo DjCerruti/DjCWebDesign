@@ -244,6 +244,9 @@ span.slogan {
     margin-right:auto;
     position: relative;
     padding: 0;
+    top: 22em;
+    left: 0em;
+    transform: scale(1);
 }
 
 #c {
@@ -462,6 +465,7 @@ span.slogan {
     background-color: #377D8C;
     position: absolute;
     top: 2em;
+    margin-top: 1em;
     left: -24.3em;
     opacity: 0;
     z-index: -1;
@@ -474,7 +478,7 @@ span.slogan {
     z-index:100;
     border-top-left-radius: 50%;
     padding: 0;
-   
+    
     
 }
 
@@ -561,7 +565,6 @@ span.slogan {
      background-color: rgb(47, 79, 79, 1);
      padding: 0;
      margin: 0;
-     /*border-bottom: 5px solid darkslategray;*/
  }
 
  .headline h2 {
@@ -861,11 +864,8 @@ fieldset button {
 #home footer {
     width: 100vw;
     border-top: 12px solid black;
-    /*border-left: 25px solid black;
-    border-right: 25px solid black;*/
     z-index: 1000;
     background-color: rgb(47, 79, 79, .64);
-    /*color: #f2dabd;*/
     color: white;
     clear: both;
     position: absolute;
@@ -896,7 +896,6 @@ fieldset button {
 }
 
 footer .footersection1 a {
-    /*color: #f2dabd;*/
     color: white;
     font-size: 1.8em;
     text-decoration: none;
@@ -974,16 +973,12 @@ footer .footersection2 nav.nav2 ul {
 }
 
 footer .footersection2 nav.nav2 ul.nav2ul1 {
-    /*margin-left: 5%;
-    margin-right: 10%;*/
     border-top: none;
     border-bottom: none;
        
 }
 
 footer .footersection2 nav.nav2 ul.nav2ul2 {
-    /*margin-left: 12.5%;
-    margin-right: 2em;*/
     border-top: none;
     border-bottom: none;  
 }
@@ -1138,7 +1133,6 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     footer .footersection1 a {
-        /*color: #f2dabd;*/
         font-size: 1.4em;
         color: white;
         padding-top: 0;
