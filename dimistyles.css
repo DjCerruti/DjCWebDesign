@@ -2118,8 +2118,8 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -18.5em;
-        left: -23em;
+        top: -20em;
+        left: -22em;
         padding: 0;
         transform:scale(.28);
     }
@@ -2135,22 +2135,23 @@ h1#logo a {
         width: 210px;
         height: 35px;
         text-indent: -3000em;
+	margin-bottom: 0;
     }
 
     header nav ul {
         margin-top: .2em;
-        border-top: 5px solid #BFA288;
+        border-top: 4px solid #BFA288;
         border-bottom: 5px solid #BFA288;
-        padding-top: .2em;
-        padding-bottom: .2em;
+        padding-top: .05em;
+        padding-bottom: .05em;
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 320px;
+        width: 310px;
     }
 
     nav ul li.about {
-        margin-left: 4em;
+        margin-left: 4.5em;
         margin-right: auto;
     }
 
@@ -2158,6 +2159,8 @@ h1#logo a {
         display: inline-block;
         font-size: .7em;
         width: 80px;
+	padding-top: 0;
+	padding-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         font-family: Optima, Arsenal, sans-serif;
