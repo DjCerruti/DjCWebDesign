@@ -204,7 +204,7 @@ h1 span.design {
     width: 350px;
     font-family: Optima, Arsenal, "Gill Sans", sans-serif;
     left: 3em;
-    top: 9em;
+    top: 8em;
     font-size: 1.5em;
     color: #f2dabd;
     z-index: 200;
@@ -270,7 +270,7 @@ span.slogan {
 	100% { opacity: 1; }
 
     0% { top: -50em; }
-	100% {top: -3em; }
+	100% {top: -4em; }
 
     0% { left: -50em; }
     100% {left: 2.8em; }
@@ -302,7 +302,7 @@ span.slogan {
 	100% {left: 1em; }
 
     0% { top: -35em; }
-    100% { top: -1.8em; }
+    100% { top: -2.8em; }
 
     0% { transform: scale(2) }
     100% { transform: scale(1) }
@@ -311,7 +311,7 @@ span.slogan {
 #d { 
     width: 18%;
     position:absolute;
-    top: 14em;
+    top: 13em;
     left: 19.5em;
     z-index: 50;
     animation-name: dapp;
@@ -333,7 +333,7 @@ span.slogan {
 #dt {
     width: 30%;
     position:absolute;
-    top: 7em;
+    top: 6em;
     left: 11.8em;
     animation-name: westward1;
     animation-duration: 1.5s;
@@ -355,7 +355,7 @@ span.slogan {
 #j {
     width: 10%;
     position:absolute;
-    top: 15em;
+    top: 14em;
     left: 36.5em;
     z-index: 50;
     animation-name: japp;
@@ -376,7 +376,7 @@ span.slogan {
 #jt {
     width: 30%;
     position: absolute;
-    top: 14em;
+    top: 13em;
     left: 23em;
     z-index: -3;
     margin-bottom: 0;
@@ -422,7 +422,7 @@ span.slogan {
 	100% {left: 52.2em; }
 
     0% { top: -120em; }
-    100% { top: 16em; }
+    100% { top: 15em; }
 
 }
 
@@ -450,7 +450,7 @@ span.slogan {
 	100% {left: 50.4em; }
 
     0% { top: -80em; }
-    100% { top: 8.7em; }
+    100% { top: 7.7em; }
 
     0% { transform: scale(5) }
     100% { transform: scale(1) }
@@ -463,7 +463,7 @@ span.slogan {
     min-height: 25%;
     background-color: #377D8C;
     position: absolute;
-    top: 2em;
+    top: 1.2em;
     left: -24.3em;
     opacity: 0;
     z-index: -1;
@@ -500,7 +500,7 @@ span.slogan {
      height: 1000px;
      position: absolute;
      left: 41em;
-     top: -25em;
+     top: -26em;
      opacity: 0;
      animation-name: southward1;
      animation-duration: .5s;
@@ -1004,6 +1004,18 @@ footer .footersection2 nav.nav2 ul li {
 }   
 
 @media screen and (max-width: 1320px) {
+
+    #centerbox {
+        width: 1200px;
+        /*height: 1000px;*/
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: -11em;
+        left: -1em;
+        padding: 0;
+        transform:scale(.67);
+    }
     
     h1#logo a {
         position: absolute;
@@ -1122,7 +1134,7 @@ footer .footersection2 nav.nav2 ul li {
 
     footer .footersection1 ul {
         display: inline-block;
-        width: 16%;
+        width: 18%;
         margin-left: 1.8em;
         padding-top: .5em;
         padding-bottom: .5em;
@@ -1131,7 +1143,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     footer .footersection1 a {
-        font-size: 1.4em;
+        font-size: 1.2em;
         color: white;
         padding-top: 0;
         padding-bottom: 0;
@@ -1154,11 +1166,16 @@ footer .footersection2 nav.nav2 ul li {
     
     } 
 
+    footer .footersection2 nav.nav2 ul {
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
         font-size: 1.2em;
         padding: 0;
-        margin: 0 2em 0 2em;
+        margin: 0 3em 0 3em;
         font-weight: bolder;   
     }
     
@@ -1185,18 +1202,6 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         bottom: 0%;
         z-index: 3000;
-    }
-
-    #centerbox {
-        width: 1200px;
-        /*height: 1000px;*/
-        margin-left:auto;
-        margin-right:auto;
-        position: relative;
-        top: -11em;
-        left: -1em;
-        padding: 0;
-        transform:scale(.67);
     }
 
 }
@@ -1423,7 +1428,19 @@ footer .footersection2 nav.nav2 ul li {
            100% { opacity: 0.75; }
         } */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
+
+    #centerbox {
+        width: 1200px;
+        /*height: 1000px;*/
+        margin-left:auto;
+        margin-right:auto;
+        position: relative;
+        top: -10.8em;
+        left: -6em;
+        padding: 0;
+        transform:scale(.57);
+    }
 
     h1#logo a {
         position: absolute;
@@ -1434,7 +1451,7 @@ footer .footersection2 nav.nav2 ul li {
         background-repeat:no-repeat;
         z-index: 3000;
         width: 210px;
-        height: 52px;
+        height: 44px;
         text-indent: -3000em;
     }
 
@@ -1482,7 +1499,7 @@ footer .footersection2 nav.nav2 ul li {
     } 
 
     nav ul {
-        margin-top: 1em;
+        margin-top: .5em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
@@ -1490,17 +1507,17 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 383px;
+        width: 480px;
     }
 
     nav ul li.about {
-        margin-left: 2.3em;
+        margin-left: 3.85em;
     }
 
     nav ul li {
         display: inline;
-        font-size: 1.2em;
-        margin-right: 2.2em;
+        font-size: 1.1em;
+        margin-right: 3em;
         font-family: Optima, Arsenal, sans-serif;
         
     }
@@ -1508,7 +1525,7 @@ footer .footersection2 nav.nav2 ul li {
     footer .footersection1 a {
         /*color: #f2dabd;*/
         color: white;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     footer .footersection1 ul {
@@ -1520,9 +1537,9 @@ footer .footersection2 nav.nav2 ul li {
 
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        font-size: 1em;
+        font-size: 1.1em;
         padding: 0;
-        margin: 0 3em 0 3em;
+        margin: 0 5em 0 5em;
         font-weight: bolder;
         
     }
@@ -1564,18 +1581,6 @@ footer .footersection2 nav.nav2 ul li {
         -webkit-text-stroke: .8px darkslategray;
         color: transparent;
         text-shadow: 0px 2px rgb(47, 79, 79, .33);   
-    }
-
-    #centerbox {
-        width: 1200px;
-        /*height: 1000px;*/
-        margin-left:auto;
-        margin-right:auto;
-        position: relative;
-        top: -12.5em;
-        left: -12em;
-        padding: 0;
-        transform:scale(.5);
     }
 
 }
@@ -1804,7 +1809,7 @@ footer .footersection2 nav.nav2 ul li {
 
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 960px) {
 
     #centerbox {
         width: 1200px;
@@ -1812,10 +1817,23 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -18em;
-        left: -18em;
+        top: -15em;
+        left: -10em;
         padding: 0;
-        transform:scale(.36);
+        transform:scale(.48);
+    }
+
+    h1#logo a {
+        position: absolute;
+        top: 0.25em;
+        left: 1em;
+        background-image: url(letter_images/logo_djcdesign.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        z-index: 3000;
+        width: 210px;
+        height: 41px;
+        text-indent: -3000em;
     }
 
     #home h2 {
@@ -1845,7 +1863,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     header nav ul {
-        margin-top: 1em;
+        margin-top: .25em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
@@ -1890,17 +1908,17 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     footer .footersection1 ul {
-        display: block;
+        display: inline-flex;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 40%;
 
     }
 
     footer .footersection1 a {
         /*color: #f2dabd;*/
         color: white;
-        font-size: 1.1em;
+        font-size: 1em;
        
     }
 
@@ -1957,7 +1975,7 @@ footer .footersection2 nav.nav2 ul li {
 
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 720px) {
 
     #centerbox {
         width: 1200px;
@@ -1965,10 +1983,10 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -20.5em;
-        left: -23em;
+        top: -16.5em;
+        left: -17em;
         padding: 0;
-        transform:scale(.25);
+        transform:scale(.4);
     }
 
     #home h2 {
@@ -1999,7 +2017,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     header nav ul {
-        margin-top: 1em;
+        margin-top: .25em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
@@ -2007,22 +2025,87 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 290px;
+        width: 300px;
     }
 
     nav ul li.about {
-        margin-left: 2.3em;
+        margin-left: 3.5em;
         margin-right: auto;
     }
 
     nav ul li {
         display: inline-block;
-        font-size: 1em;
+        font-size: .8em;
         width: 80px;
         margin-left: auto;
         margin-right: auto;
         font-family: Optima, Arsenal, sans-serif;
         
+    }
+
+    footer .footersection1 ul {
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+
+    }
+
+    footer .footersection1 a {
+        /*color: #f2dabd;*/
+        color: white;
+        font-size: .8em;
+       
+    }
+
+    footer .footersection2 nav.nav2 ul.nav2ul1 {
+        margin-left: -2em;
+        margin-right: 5%;
+        border-top: none;
+        border-bottom: none;
+           
+    }
+    
+    #about footer .footersection2 nav.nav2 ul.nav2ul1, #contact footer .footersection2 nav.nav2 ul.nav2ul1, #gallery footer .footersection2 nav.nav2 ul.nav2ul1 {
+        margin-left: -2em;
+        margin-right: 5%;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    footer .footersection2 nav.nav2 ul.nav2ul2 {
+        margin-left: 0;
+        margin-right: 2em;
+        border-top: none;
+        border-bottom: none;  
+    }
+    
+    #about footer .footersection2 nav.nav2 ul.nav2ul2, #contact footer .footersection2 nav.nav2 ul.nav2ul2, #gallery footer .footersection2 nav.nav2 ul.nav2ul2 {
+        margin-left: 0;
+        margin-right: 5%;
+        border-top: none;
+        border-bottom: none;
+        
+    }
+    
+    footer .footersection2 nav.nav2 ul li {
+        font-family: Optima, Arsenal, "Gill Sans", sans-serif;
+        font-size: .8em;
+        padding: 0;
+        margin: 0 1em 0 1em;
+        font-weight: bolder; 
+    }
+    
+    footer .footersection2 nav.nav2 ul:first-child {
+        
+        margin-left: 3.5em;
+       
+    }
+
+    #about footer .footersection2 nav.nav2 ul:first-child, #gallery footer .footersection2 nav.nav2 ul:first-child, #contact footer .footersection2 nav.nav2 ul:first-child {
+        
+        margin-left: 3.5em;
+       
     }
 
 }
