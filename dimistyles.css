@@ -2119,7 +2119,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-right:auto;
         position: relative;
         top: -21em;
-        left: -23.5em;
+        left: -23.25em;
         padding: 0;
         transform:scale(.27);
     }
@@ -2178,8 +2178,8 @@ h1#logo a {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -22em;
-        left: -24em;
+        top: -23em;
+        left: -25.5em;
         padding: 0;
         transform:scale(.2);
     }
