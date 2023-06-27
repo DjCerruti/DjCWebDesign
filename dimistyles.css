@@ -1525,14 +1525,14 @@ footer .footersection2 nav.nav2 ul li {
     footer .footersection1 a {
         /*color: #f2dabd;*/
         color: white;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     footer .footersection1 ul {
-        display: inline-block;
-        
-        
-        width: 40%;
+        display: inline-flex;
+        padding-right: 2em;
+        padding-left: 2em;
+        width: 36%;
     }
 
     footer .footersection2 nav.nav2 ul li {
@@ -2047,7 +2047,7 @@ footer .footersection2 nav.nav2 ul li {
         display: inline-flex;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 36%;
 
     }
 
