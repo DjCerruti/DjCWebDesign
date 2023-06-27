@@ -2160,13 +2160,11 @@ h1#logo a {
         display: inline-block;
         font-size: .7em;
         width: 80px;
-	padding-top: 0;
-	padding-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 1.5em;
         font-family: Optima, Arsenal, sans-serif;
         
     }
+
 
 }
 
@@ -2178,7 +2176,7 @@ h1#logo a {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -23.5em;
+        top: -24em;
         left: -26em;
         padding: 0;
         transform:scale(.19);
