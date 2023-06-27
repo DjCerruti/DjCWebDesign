@@ -2148,11 +2148,11 @@ h1#logo a {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 312px;
+        width: 308px;
     }
 
     nav ul li.about {
-        margin-left: 4em;
+        margin-left: 3em;
         margin-right: auto;
     }
 
@@ -2191,11 +2191,11 @@ h1#logo a {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 260px;
+        width: 200px;
     }
 
     nav ul li.about {
-        margin-left: 2.5em;
+        margin-left: 1.5em;
         margin-right: auto;
     }
 
