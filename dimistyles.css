@@ -1809,7 +1809,7 @@ footer .footersection2 nav.nav2 ul li {
 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 920px) {
 
     #centerbox {
         width: 1200px;
@@ -1899,7 +1899,7 @@ footer .footersection2 nav.nav2 ul li {
         color: white;
         clear: both;
         position: absolute;
-        top: 75%;
+        top: 50%;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
@@ -1908,7 +1908,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     footer .footersection1 ul {
-        display: inline-flex;
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
@@ -1975,7 +1975,7 @@ footer .footersection2 nav.nav2 ul li {
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
 
     #centerbox {
         width: 1200px;
@@ -2044,7 +2044,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     footer .footersection1 ul {
-        display: inline-flex;
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
         width: 36%;
@@ -2110,7 +2110,7 @@ footer .footersection2 nav.nav2 ul li {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 
     #centerbox {
         width: 1200px;
@@ -2169,7 +2169,7 @@ h1#logo a {
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 
  #centerbox {
         width: 1200px;
@@ -2205,7 +2205,7 @@ h1#logo a {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
-	left: -1em;
+	    left: -1em;
         padding-left: 0;
         padding-right: 0;
         width: 210px;
@@ -2220,8 +2220,8 @@ h1#logo a {
         display: inline-block;
         font-size: .7em;
         width: 60px;
-	padding-top: 0;
-	padding-bottom: 0;
+	    padding-top: 0;
+	    padding-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         font-family: Optima, Arsenal, sans-serif;
