@@ -2177,7 +2177,7 @@ h1#logo a {
         margin-right:auto;
         position: relative;
         top: -24em;
-        left: -26em;
+        left: -26.5em;
         padding: 0;
         transform:scale(.19);
     }
@@ -2191,7 +2191,7 @@ h1#logo a {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 200px;
+        width: 160px;
     }
 
     nav ul li.about {
