@@ -1019,7 +1019,7 @@ footer .footersection2 nav.nav2 ul li {
     
     h1#logo a {
         position: absolute;
-        top: 0.05em;
+        top: 0.1em;
         left: 1.5em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -2006,11 +2006,11 @@ footer .footersection2 nav.nav2 ul li {
 
     #home h2 {
         position: relative;
-        width: 80px;
+        width: 120px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 8em;
-        top: 8em;
-        font-size: .625em;
+        left: 5em;
+        top: 6.5em;
+        font-size: .8em;
         color: #f2dabd;
         z-index: 200;
         animation-name: slogapp;
@@ -2040,7 +2040,7 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 300px;
+        width: 262px;
     }
 
     nav ul li.about {
@@ -2050,7 +2050,7 @@ footer .footersection2 nav.nav2 ul li {
 
     nav ul li {
         display: inline-block;
-        font-size: .8em;
+        font-size: 1em;
         width: 63px;
         margin-left: auto;
         margin-right: auto;
@@ -2133,15 +2133,15 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -21.7em;
-        left: -22.5em;
+        top: -20.8em;
+        left: -20.5em;
         padding: 0;
-        transform:scale(.27);
+        transform:scale(.32);
     }
 
 h1#logo a {
         position: absolute;
-        top: 0.25em;
+        top: 0.1em;
         left: 1.1em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -2156,11 +2156,11 @@ h1#logo a {
 
     #home h2 {
         position: relative;
-        width: 100px;
+        width: 120px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 5em;
-        top: 8.5em;
-        font-size: .625em;
+        left: 3.5em;
+        top: 6.5em;
+        font-size: .8em;
         color: #f2dabd;
         z-index: 200;
         animation-name: slogapp;
@@ -2188,9 +2188,11 @@ h1#logo a {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
+	top: 2em;
+	left: -11em;
         padding-left: 0;
         padding-right: 0;
-        width: 302px;
+        width: 354px;
     }
 
     nav ul li.about {
@@ -2200,7 +2202,7 @@ h1#logo a {
 
     nav ul li {
         display: inline-block;
-        font-size: .7em;
+        font-size: 1em;
         width: 80px;
         margin-left: auto;
 	margin-right: auto;
@@ -2227,7 +2229,7 @@ h1#logo a {
 
 h1#logo a {
         position: absolute;
-        top: 0.25em;
+        top: 0.1em;
         left: .6em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
