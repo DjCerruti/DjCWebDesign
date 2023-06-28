@@ -1011,7 +1011,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -14em;
+        top: -13.8em;
         left: 0;
         padding: 0;
         transform:scale(.56);
@@ -1034,8 +1034,8 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         width: 350px;
         font-family: Optima, Arsenal, 'Gill Sans', sans-serif;
-        left: 7em;
-        top: 5.5em;
+        left: 8em;
+        top: 4.5em;
         font-size: 1em;
         color: #f2dabd;
         z-index: 200;
