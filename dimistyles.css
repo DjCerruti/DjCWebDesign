@@ -1831,7 +1831,7 @@ footer .footersection2 nav.nav2 ul li {
     h1#logo a {
         position: absolute;
         top: 0.25em;
-        left: 1.1em;
+        left: 1.2em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
         background-repeat:no-repeat;
@@ -1867,8 +1867,18 @@ footer .footersection2 nav.nav2 ul li {
         100% { opacity: 1; }
     }
 
+  header nav  {
+        width: 360px;
+        position: absolute;
+        top: 0;
+        left: 14em;
+        z-index: 505;
+        padding: 0 0 1em 0;
+        
+    } 
+
     header nav ul {
-        margin-top: .25em;
+        margin-top: .5em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
