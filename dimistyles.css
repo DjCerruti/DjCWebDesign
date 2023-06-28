@@ -1428,7 +1428,7 @@ footer .footersection2 nav.nav2 ul li {
            100% { opacity: 0.75; }
         } */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1120px) {
 
     #centerbox {
         width: 1200px;
@@ -1439,7 +1439,7 @@ footer .footersection2 nav.nav2 ul li {
         top: -10.85em;
         left: -6em;
         padding: 0;
-        transform:scale(.57);
+        transform:scale(.48);
     }
 
     h1#logo a {
