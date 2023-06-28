@@ -1846,7 +1846,7 @@ footer .footersection2 nav.nav2 ul li {
         width: 200px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
         left: 5em;
-        top: 11em;
+        top: 8em;
         font-size: .8em;
         color: #f2dabd;
         z-index: 200;
@@ -1886,7 +1886,7 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        width: 410px;
+        width: 404px;
         background-color:#f2dabd;
     }
 
@@ -1998,7 +1998,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -16.75em;
+        top: -19.6em;
         left: -17em;
         padding: 0;
         transform:scale(.4);
@@ -2008,8 +2008,8 @@ footer .footersection2 nav.nav2 ul li {
         position: relative;
         width: 100px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 7.5em;
-        top: 12.5em;
+        left: 6.5em;
+        top: 8.5em;
         font-size: .625em;
         color: #f2dabd;
         z-index: 200;
@@ -2032,7 +2032,7 @@ footer .footersection2 nav.nav2 ul li {
     }
 
     header nav ul {
-        margin-top: .25em;
+        margin-top: .5em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
@@ -2051,7 +2051,7 @@ footer .footersection2 nav.nav2 ul li {
     nav ul li {
         display: inline-block;
         font-size: .8em;
-        width: 80px;
+        width: 63px;
         margin-left: auto;
         margin-right: auto;
         font-family: Optima, Arsenal, sans-serif;
