@@ -2006,10 +2006,10 @@ footer .footersection2 nav.nav2 ul li {
 
     #home h2 {
         position: relative;
-        width: 100px;
+        width: 80px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
-        left: 6.5em;
-        top: 8.5em;
+        left: 8em;
+        top: 8em;
         font-size: .625em;
         color: #f2dabd;
         z-index: 200;
