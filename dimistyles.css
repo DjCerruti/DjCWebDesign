@@ -1822,7 +1822,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -16.5em;
+        top: -16.7em;
         left: -10em;
         padding: 0;
         transform:scale(.48);
@@ -1998,7 +1998,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -19.6em;
+        top: -20em;
         left: -17em;
         padding: 0;
         transform:scale(.4);
@@ -2042,9 +2042,9 @@ footer .footersection2 nav.nav2 ul li {
         padding-right: 0;
         width: 262px;
     }
-
+	
     nav ul li.about {
-        margin-left: 3.5em;
+        margin-left: 2.5em;
         margin-right: auto;
     }
 
