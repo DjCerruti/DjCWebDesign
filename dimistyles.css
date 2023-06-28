@@ -280,7 +280,7 @@ span.slogan {
 #ct {
     width: 70.5%;
     position: absolute;
-    top: -35em;
+    top: -35.5em;
     left: -40em;
     animation-name: capp2;
     animation-duration: 1.5s;
@@ -302,7 +302,7 @@ span.slogan {
 	100% {left: 1em; }
 
     0% { top: -35.5em; }
-    100% { top: -2.8em; }
+    100% { top: -3.3em; }
 
     0% { transform: scale(2) }
     100% { transform: scale(1) }
