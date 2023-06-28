@@ -1011,7 +1011,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -13.8em;
+        top: -14em;
         left: 0;
         padding: 0;
         transform:scale(.56);
@@ -1019,7 +1019,7 @@ footer .footersection2 nav.nav2 ul li {
     
     h1#logo a {
         position: absolute;
-        top: 0.2em;
+        top: 0em;
         left: 1.5em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -1108,7 +1108,7 @@ footer .footersection2 nav.nav2 ul li {
     } 
     
     nav ul {
-        margin-top: 1em;
+        margin-top: .5em;
         border-top: 5px solid #BFA288;
         border-bottom: 5px solid #BFA288;
         padding-top: .25em;
