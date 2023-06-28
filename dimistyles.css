@@ -1011,10 +1011,10 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -16em;
+        top: -17em;
         left: 2em;
         padding: 0;
-        transform:scale(.58);
+        transform:scale(.56);
     }
     
     h1#logo a {
