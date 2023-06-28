@@ -1436,7 +1436,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: -14.5em;
+        top: -16em;
         left: -6em;
         padding: 0;
         transform:scale(.48);
@@ -1444,7 +1444,7 @@ footer .footersection2 nav.nav2 ul li {
 
     h1#logo a {
         position: absolute;
-        top: 0.05em;
+        top: 0.25em;
         left: 1.1em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -1525,7 +1525,11 @@ footer .footersection2 nav.nav2 ul li {
     footer .footersection1 a {
         /*color: #f2dabd;*/
         color: white;
-        font-size: .8em;
+        font-size: 1em;
+	padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     footer .footersection1 ul {
