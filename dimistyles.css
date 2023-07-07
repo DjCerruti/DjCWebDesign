@@ -100,7 +100,7 @@ h1#logo a {
         100% { opacity: 1; }
     }
 
-/* Navigation */
+/* Header & Navigation */
 
 nav a {
     text-decoration: none;
@@ -153,6 +153,38 @@ nav ul li {
     font-family: Optima, Arsenal, sans-serif;
     
 }
+
+.callme {
+    background-color:rgb(47, 79, 79, .36);
+    width: 200px;
+    height: 72px;
+    position: absolute;
+    padding: .25em;
+    right: 8.2em;
+    top: .25em;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.callme h3 {
+   margin-top: .65em;
+   margin-bottom: 0;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   color:white;
+}
+
+.callme p {
+    margin-top: .25em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+    font-size: 1.2em;
+ }
 
 /* Marketing Animations */
 
