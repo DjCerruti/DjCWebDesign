@@ -155,36 +155,50 @@ nav ul li {
 }
 
 .callme {
-    background-color:rgb(47, 79, 79, .36);
-    width: 200px;
-    height: 72px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:rgb(47, 79, 79, .64);
     position: absolute;
-    padding: .25em;
-    right: 8.2em;
+    left: 80%;
+    right: 1em;
     top: .25em;
     border-radius: 50%;
     border: 2px solid black;
+    z-index: 5000;
+    padding: .5em;
+}
+
+.callad {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+   
+   
 }
 
 .callme h3 {
-   margin-top: .65em;
-   margin-bottom: 0;
-   width: 90%;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
    color:white;
+   margin-bottom: 0;
+   font-size: 1.2em;
 }
 
 .callme p {
-    margin-top: .25em;
-    width: 90%;
+   
+    width: 80%;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color:white;
     font-size: 1.2em;
+    padding: 0;
  }
+
 
 /* Marketing Animations */
 
@@ -481,6 +495,7 @@ body#about, body#contact, body#gallery {
     margin-right: auto;
     margin-bottom: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #about img#htmlvista {
@@ -955,7 +970,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-right:auto;
         position: relative;
         padding: 0;
-        top: 0em;
+        top: .25em;
         left: 0em;
         transform:scale(1);
         z-index: 499;
@@ -1166,6 +1181,51 @@ footer .footersection2 nav.nav2 ul li {
         padding: 1em 1em 1em 1em;
         border: 1px solid black;
         font-family: Arial, "Gill Sans", sans-serif;
+     }
+
+     .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 80%;
+        right: 1em;
+        top: 0%;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: .5em;
+    }
+    
+    .callad {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+       
+       
+    }
+    
+    .callme h3 {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       color:white;
+       margin-bottom: 0;
+       font-size: 1.2em;
+    }
+    
+    .callme p {
+       
+        width: 80%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color:white;
+        font-size: 1.2em;
+        padding: 0;
      }
  
 }   
@@ -1776,6 +1836,51 @@ footer .footersection2 nav.nav2 ul li {
     font-weight: bolder;   
 }
 
+.callme {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:rgb(47, 79, 79, .64);
+    position: absolute;
+    left: 70%;
+    right: 3em;
+    top: .25em;
+    border-radius: 50%;
+    border: 2px solid black;
+    z-index: 5000;
+    padding: 0;
+}
+
+.callad {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+.callme h3 {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   color:white;
+   margin-bottom: 0;
+   font-size: 1.2em;
+}
+
+.callme p {
+   
+    width: 80%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+    font-size: 1.2em;
+    padding: 0;
+ }
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -2015,6 +2120,23 @@ footer .footersection2 nav.nav2 ul li {
         margin-bottom: 0;
     } 
 
+    .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 72%;
+        right: 3em;
+        top: -.5em;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: 0;
+        transform: scale(.72);
+    }
+    
+    
 }
 
 @media screen and (max-width: 1120px) {
@@ -2281,7 +2403,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left: auto;
         margin-right: auto;
         background-color: ghostwhite;
-        margin-top: 3.5em;
+        margin-top: 4.5em;
         padding: 0 0 2em 0;
         box-shadow: 8px 18px 15px 8px rgb(47, 79, 79, .36);
         margin-bottom: 0;
@@ -2309,7 +2431,22 @@ footer .footersection2 nav.nav2 ul li {
     
         }
 
-
+        .callme {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-color:rgb(47, 79, 79, .64);
+            position: absolute;
+            left: 72%;
+            right: 3em;
+            top: -1em;
+            border-radius: 50%;
+            border: 2px solid black;
+            z-index: 5000;
+            padding: .5em;
+            transform: scale(.64);
+        }
+        
 }
 
 @media screen and (max-width: 860px) {
@@ -2461,11 +2598,27 @@ footer .footersection2 nav.nav2 ul li {
             margin-left: auto;
             margin-right: auto;
             background-color: ghostwhite;
-            margin-top: 3.5em;
+            margin-top: 4.5em;
             padding: 0 0 2em 0;
             box-shadow: 8px 18px 15px 8px rgb(47, 79, 79, .36);
             margin-bottom: 0;
         }   
+
+        .callme {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-color:rgb(47, 79, 79, .64);
+            position: absolute;
+            left: 75%;
+            right: 1em;
+            top: -1em;
+            border-radius: 50%;
+            border: 2px solid black;
+            z-index: 5000;
+            padding: .5em;
+            transform: scale(.64);
+        }
     
     
 }
@@ -2536,12 +2689,12 @@ footer .footersection2 nav.nav2 ul li {
         left: -1.5em;
         padding-left: 0;
         padding-right: 0;
-        width: 332px;
+        width: 282px;
         z-index: 500;
     }
 	
     nav ul li.about {
-        margin-left: 3em;
+        margin-left: 1.3em;
         margin-right: auto;
     }
 
@@ -2584,8 +2737,6 @@ footer .footersection2 nav.nav2 ul li {
         font-size: .8em;
        
     }
-
-    
     
     footer .footersection2 nav.nav2 ul li {
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
@@ -2600,7 +2751,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left: auto;
         margin-right: auto;
         background-color: ghostwhite;
-        margin-top: 3.3em;
+        margin-top: 4.5em;
         padding: 0 0 2em 0;
         box-shadow: 8px 18px 15px 8px rgb(47, 79, 79, .36);
         margin-bottom: 0;
@@ -2619,6 +2770,22 @@ footer .footersection2 nav.nav2 ul li {
         margin-top: 0;
         margin-bottom: 1em;
     
+        }
+
+        .callme {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-color:rgb(47, 79, 79, .64);
+            position: absolute;
+            left: 72%;
+            right: 0;
+            top: -1.2em;
+            border-radius: 50%;
+            border: 2px solid black;
+            z-index: 5000;
+            padding: .5em;
+            transform: scale(.56);
         }
 
 }
@@ -2690,20 +2857,20 @@ h1#logo a {
 	    left: -9.2em;
         padding-left: 0;
         padding-right: 0;
-        width: 346px;
+        width: 300px;
         z-index: 500;
         margin-bottom: 0;
     }
 
     nav ul li.about {
-        margin-left: 3.9em;
+        margin-left: 3em;
         margin-right: auto;
     }
 
     nav ul li {
         display: inline-block;
         font-size: 1em;
-        width: 80px;
+        width: 70px;
         margin-left: auto;
 	    margin-right: auto;
         font-family: Optima, Arsenal, sans-serif;
@@ -2801,6 +2968,22 @@ h1#logo a {
 
     #contact input[type=text], #contact input[type=tel], #contact input[type=email], #contact textarea {
         font-size: .8em;
+    }
+
+    .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 62%;
+        right: 0;
+        top: -.5em;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: .5em;
+        transform: scale(.56);
     }
 
 }
@@ -2934,6 +3117,22 @@ h1#logo a {
 
    }
 
+   .callme {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:rgb(47, 79, 79, .64);
+    position: absolute;
+    left: 64%;
+    right: 0;
+    top: -1em;
+    border-radius: 50%;
+    border: 2px solid black;
+    z-index: 5000;
+    padding: .5em;
+    transform: scale(.5);
+}
+
 }
 
    @media screen and (max-width: 520px) {
@@ -2996,7 +3195,7 @@ h1#logo a {
            margin-left:auto;
            margin-right:auto;
            position: relative;
-           top: .5em;
+           top: -.5em;
            left: -24.5em;
            padding: 0;
            transform:scale(.27);
@@ -3023,7 +3222,7 @@ h1#logo a {
         width: 80px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
         left: 1.4em;
-        top: 6.5em;
+        top: 5.5em;
         font-size: .8em;
         color: #f2dabd;
         z-index: 200;
@@ -3071,6 +3270,22 @@ h1#logo a {
         justify-content: center;
     }
 
+    .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 70%;
+        right: 0;
+        top: -1.8em;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: .5em;
+        transform: scale(.5);
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -3080,7 +3295,7 @@ h1#logo a {
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        top: .5em;
+        top: -.6em;
         left: -25.8em;
         padding: 0;
         transform:scale(.25);
@@ -3089,7 +3304,7 @@ h1#logo a {
 
 h1#logo a {
         position: absolute;
-        top: .8em;
+        top: .25em;
         left: 1em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -3109,7 +3324,7 @@ h1#logo a {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
-        top: 3.6em;
+        top: 2.5em;
 	    left: -11.3em;
         padding-left: 0;
         padding-right: 0;
@@ -3139,7 +3354,7 @@ h1#logo a {
         width: 50px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
         left: 1.6em;
-        top: 8em;
+        top: 6.25em;
         font-size: .6em;
         color: #f2dabd;
         z-index: 200;
@@ -3187,6 +3402,22 @@ h1#logo a {
         max-width: 60%;
     }
 
+    .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 72%;
+        right: 0;
+        top: -1.5em;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: .05em;
+        transform: scale(.5);
+    }
+
 	
 }
 
@@ -3197,7 +3428,7 @@ h1#logo a {
            margin-left:auto;
            margin-right:auto;
            position: relative;
-           top: .5em;
+           top: -.5em;
            left: -27em;
            padding: 0;
            transform:scale(.22);
@@ -3206,7 +3437,7 @@ h1#logo a {
 
        h1#logo a {
         position: absolute;
-        top: .8em;
+        top: .25em;
         left: 1em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
@@ -3226,17 +3457,29 @@ h1#logo a {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
-        top: 3.6em;
+        top: 2.6em;
 	    left: -11.5em;
         padding-left: 0;
         padding-right: 0;
-        width: 218px;
+        width: 186px;
         z-index: 500;
     }
 
     nav ul li.about {
-        margin-left: 2.4em;
+        margin-left: 1.8em;
         margin-right: auto;
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-size: .7em;
+        width: 50px;
+	    padding-top: 0;
+	    padding-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-family: Optima, Arsenal, sans-serif;
+        
     }
        
        #home h2 {
@@ -3244,7 +3487,7 @@ h1#logo a {
         width: 50px;
         font-family: Optima, Arsenal, "Gill Sans", sans-serif;
         left: 1em;
-        top: 7.8em;
+        top: 6em;
         font-size: .6em;
         color: #f2dabd;
         z-index: 200;
@@ -3278,7 +3521,6 @@ h1#logo a {
         margin-right: auto;
         padding: 1em;
 
-
     }
 
     .wrapper {
@@ -3306,6 +3548,21 @@ h1#logo a {
         max-width: 64%;
     }
 
+    .callme {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        background-color:rgb(47, 79, 79, .64);
+        position: absolute;
+        left: 64%;
+        right: 0;
+        top: -2em;
+        border-radius: 50%;
+        border: 2px solid black;
+        z-index: 5000;
+        padding: .5em;
+        transform: scale(.5);
+    }
 
 }
 
@@ -3316,7 +3573,7 @@ h1#logo a {
                margin-left:auto;
                margin-right:auto;
                position: relative;
-               top: .4em;
+               top: -.5;
                left: -27.8em;
                padding: 0;
                transform:scale(.2);
@@ -3325,7 +3582,7 @@ h1#logo a {
     
            h1#logo a {
             position: absolute;
-            top: .7em;
+            top: .25em;
             left: .65em;
             background-image: url(letter_images/logo_djcdesign.png);
             background-size:contain;
@@ -3345,23 +3602,23 @@ h1#logo a {
             padding-top: 0;
             padding-bottom: 0;
             position: relative;
-            top: 3.5em;
+            top: 2.6em;
             left: -12em;
             padding-left: 0;
             padding-right: 0;
-            width: 206px;
+            width: 170px;
             z-index: 500;
         }
     
         nav ul li.about {
-            margin-left: 2.75em;
+            margin-left: 2em;
             margin-right: auto;
         }
 
         nav ul li {
             display: inline-block;
             font-size: .7em;
-            width: 50px;
+            width: 40px;
             padding-top: 0;
             padding-bottom: 0;
             margin-left: auto;
@@ -3418,6 +3675,22 @@ h1#logo a {
             margin-top: 0;
             margin-bottom: 1em;
         
+            }
+
+            .callme {
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                background-color:rgb(47, 79, 79, .64);
+                position: absolute;
+                left: 65%;
+                right: 0;
+                top: -1.5em;
+                border-radius: 50%;
+                border: 2px solid black;
+                z-index: 5000;
+                padding: .05em;
+                transform: scale(.5);
             }
     
 }
