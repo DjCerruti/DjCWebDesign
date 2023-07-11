@@ -1912,7 +1912,7 @@ footer .footersection2 nav.nav2 ul li {
     h1#logo a {
         position: absolute;
         top: 0.1em;
-        left: 4.5em;
+        left: 4em;
         background-image: url(letter_images/logo_djcdesign.png);
         background-size:contain;
         background-repeat:no-repeat;
@@ -2007,7 +2007,7 @@ footer .footersection2 nav.nav2 ul li {
         padding-top: .25em;
         padding-bottom: .25em;
         position: relative;
-        left: 4.2em;
+        left: 4.7em;
         padding-left: 0;
         padding-right: 0;
         width: 516px;
