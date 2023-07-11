@@ -1893,7 +1893,7 @@ footer .footersection2 nav.nav2 ul li {
         top: -.5em;
         left: 0;
         padding: 0;
-        transform:scale(.56);
+        transform:scale(.64);
         z-index: 499;
     }
     
@@ -2128,12 +2128,12 @@ footer .footersection2 nav.nav2 ul li {
         position: absolute;
         left: 72%;
         right: 3em;
-        top: -.5em;
+        top: 0;
         border-radius: 50%;
         border: 2px solid black;
         z-index: 5000;
         padding: 0;
-        transform: scale(.72);
+        transform: scale(.8);
     }
     
     
