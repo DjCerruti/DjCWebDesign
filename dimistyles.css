@@ -809,7 +809,7 @@ fieldset label {
    font-family: Arial, "Gill Sans", sans-serif;
 }
 
-#contact p#comments {
+#contact #comments {
    font-size: 1.5em;
 }
 
@@ -826,6 +826,10 @@ fieldset label {
    background-image: radial-gradient(rgb(215, 218, 221) 64%, darkslategray 98%);
    color: darkolivegreen;
    border: 3px solid darkslategray;
+}
+
+.contactinput label {
+    margin-top: 1em;
 }
 
 .siterow, .siterow2 {
@@ -1683,7 +1687,7 @@ fieldset label {
     font-family: Arial, "Gill Sans", sans-serif;
 }
 
-#contact p#comments {
+#contact #comments {
     font-size: 1.5em;
 }
 
@@ -2099,7 +2103,7 @@ footer .footersection2 nav.nav2 ul li {
         z-index: 3000;
     }
 
-    #contact fieldset label, #contact p#comments {
+    #contact fieldset label, #contact #comments {
         font-size: 1.2em;
     }
 
@@ -2945,7 +2949,7 @@ h1#logo a {
         font-size: 1em;
     }
 
-    #contact fieldset label, #contact p#comments {
+    #contact fieldset label, #contact #comments {
         font-size: 1em;
     }
 
@@ -3180,7 +3184,7 @@ h1#logo a {
     top: 0;
    }
 
-   #contact fieldset label, #contact p#comments {
+   #contact fieldset label, #contact #comments {
     margin-bottom: .2em;
    }
 
@@ -3578,7 +3582,7 @@ h1#logo a {
 
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 300px) {
 
         #centerbox {
                width: 1200px;
@@ -3679,8 +3683,12 @@ h1#logo a {
             padding: 0 1em;
         }
 
-        fieldset input[type=text], fieldset input[type=tel], fieldset input[type=email] {
-            width: 88%;
+        #contact fieldset {
+            max-width: 60%;
+        }
+
+        fieldset input[type=text], fieldset input[type=tel], fieldset input[type=email], fieldset textarea {
+            width: 92%;
             margin-left: auto;
             margin-right: auto;
             height: 2em;
