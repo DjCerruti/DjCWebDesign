@@ -795,6 +795,7 @@ fieldset label {
    margin-right: 0;
    margin-left: 0;
    display:inline-block;
+   margin-top: 1em;
    margin-bottom: 1em;
 }
 
@@ -813,7 +814,7 @@ fieldset label {
    font-size: 1.5em;
 }
 
-#contact #contactus .signup {
+#contact #contactus .btn {
    display: inline-block;
    font-family: Optima, Arsenal, sans-serif;
    font-size: 2em;
@@ -826,10 +827,6 @@ fieldset label {
    background-image: radial-gradient(rgb(215, 218, 221) 64%, darkslategray 98%);
    color: darkolivegreen;
    border: 3px solid darkslategray;
-}
-
-.contactinput label {
-    margin-top: 1em;
 }
 
 .siterow, .siterow2 {
@@ -1691,7 +1688,7 @@ fieldset label {
     font-size: 1.5em;
 }
 
-#contact #contactus .signup {
+#contact #contactus .btn{
     display: inline-block;
     font-family: Optima, Arsenal, sans-serif;
     font-size: 2em;
@@ -2107,7 +2104,7 @@ footer .footersection2 nav.nav2 ul li {
         font-size: 1.2em;
     }
 
-    #contact #contactus .signup, #contact legend {
+    #contact #contactus .btn, #contact legend {
         font-size: 1.5em;
     }
 
@@ -2953,7 +2950,7 @@ h1#logo a {
         font-size: 1em;
     }
 
-    #contact #contactus .signup, #contact legend {
+    #contact #contactus .btn, #contact legend {
         font-size: 1.25em;
     }
 
